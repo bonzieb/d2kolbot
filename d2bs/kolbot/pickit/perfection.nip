@@ -15,14 +15,13 @@
 [Name] == MeshArmor && [Quality] == unique && [Flag] == ethereal // Shaftstop
 [Name] == RussetArmor && [Quality] == unique && [Flag] == ethereal // Skullder's Ire
 [Name] == TemplarCoat && [Quality] == unique && [Flag] == ethereal // Guardian Angel
-[Name] == DuskShroud && [Quality] == unique && [Flag] != ethereal # [] // Ormus' Robes
+[Name] == DuskShroud && [Quality] == unique && [Flag] != ethereal # ([PassiveFireMastery] >= 15 || [PassiveLtngMastery] >= 15 || [PassiveColdMastery] >= 15) // Ormus' Robes
 [Name] == BalrogSkin && [Quality] == unique && [Flag] == Ethereal // Arkaine's Valor
 [Name] == WireFleece && [Quality] == unique && [Flag] == ethereal //TheGladiatorBane
 [Name] == KrakenShell && [Quality] == unique // Leviathan
-[Name] == SacredArmor && [Quality] == unique // Tyrael's Might
+[Name] == SacredArmor && [Quality] == unique // Tyrael's Might OR Temp's might
 //[Name] == SharktoothArmor && [Quality] == unique // Sharktooth slayer
 [Name] == ChaosArmor && [Quality] == unique // && [Flag] == Ethereal // Black hades
-[Name] == SacredArmor && [Quality] == Unique // && [Flag] == Ethereal // Temps might
 
 
 // ##### Shields #######################
@@ -62,7 +61,7 @@
 [Name] == SlayerGuard && [Quality] == unique // Arreat's Face
 [Name] == GuardianCrown && [Quality] == unique // Arreat's Face
 [Name] == FuryVisor && [Quality] == unique // Perfect wolfhowl
-[Name] == DestroyerHelm && [Quality] == unique # [barbcombatskilltab] == 3 && [warcriesskilltab] == 3
+// [Name] == DestroyerHelm && [Quality] == unique # [barbcombatskilltab] == 3 && [warcriesskilltab] == 3
 
 // ##### Druid Pelts ###################
 [Name] == TotemicMask && [Quality] == unique // && [Flag] == ethereal // Jalal's Mane
@@ -2325,7 +2324,8 @@
 //[name] == flawlessemerald
 //[name] == flawlessdiamond # # [maxquantity] == 3
 
-//[name] == thulrune # # [MaxQuantity] == 4
+[name] == thulrune// # # [MaxQuantity] == 4
+[name] == amnrune// # # [MaxQuantity] == 4
 // [name] == ralrune # # [MaxQuantity] == 4
 // [name] == helrune # # [MaxQuantity] == 8
 
@@ -2425,3 +2425,4 @@
 
 // mana + hp/fhr
 [name] == grandcharm && [quality] == magic # [maxmana] == 59 && ([maxhp] >= 30 || [fhr] == 12)
+

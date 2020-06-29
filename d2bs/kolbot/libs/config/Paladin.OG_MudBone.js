@@ -507,6 +507,11 @@ function LoadConfig() {
 	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 
+	// Config.ClearPath = {
+	//     //Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
+	//     Range: 20, // Range to clear while traveling
+	//     Spectype: 0x7, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+	// };
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 

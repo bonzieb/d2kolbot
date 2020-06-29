@@ -516,6 +516,13 @@ function LoadConfig() {
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
+	Config.ClearPath = {
+	    //Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
+	    Range: 40, // Range to clear while traveling
+	    Spectype: 0xF, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+	};
+
+
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 
