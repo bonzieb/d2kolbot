@@ -85,6 +85,8 @@
 [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire
 [name] == flawlessskull ||  [name] == flawlessamethyst || [name] == flawlesstopaz || [name] == flawlessdiamond || [name] == flawlesssapphire || [name] == flawlessemerald || [name] == flawlessruby // # # [MaxQuantity] == 9
 
+// Craftin mats
+[name] == jewel
 
 // Essences
 //[Name] == TwistedEssenceOfSuffering # # [MaxQuantity] == 5
