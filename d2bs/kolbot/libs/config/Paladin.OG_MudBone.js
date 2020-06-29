@@ -432,7 +432,7 @@ function LoadConfig() {
 	Config.OpenChests = false; // Open chests. Controls key buying.
 	Config.MiniShopBot = true; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
-	Config.TownCheck = false; // Go to town if out of potions
+	Config.TownCheck = true; // Go to town if out of potions
 	Config.LogExperience = false; // Print experience statistics in the manager.
 	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
 

@@ -33,7 +33,7 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = false;
+	Scripts.Mausoleum = true;
 		Config.Mausoleum.KillBloodRaven = false;
 		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
@@ -43,12 +43,12 @@ function LoadConfig() {
 	Scripts.Tristram = false;
 		Config.Tristram.WalkClear = false; // Disable teleport while clearing to protect leechers
 		Config.Tristram.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Pit = false;
+	Scripts.Pit = true;
 		Config.Pit.ClearPit1 = true;
 	Scripts.Treehead = false;
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
-	Scripts.Countess = false;
+	Scripts.Countess = true;
 		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
 	Scripts.Cows = true;
@@ -58,8 +58,8 @@ function LoadConfig() {
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = false;
-		Config.AncientTunnels.OpenChest = false; // Open special chest in Lost City
+	Scripts.AncientTunnels = true;
+		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = false;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
@@ -78,11 +78,11 @@ function LoadConfig() {
 	Scripts.KurastTemples = false;
 	Scripts.Icehawk = false;
 	Scripts.Endugu = false;
-	Scripts.Travincal = false;
+	Scripts.Travincal = true;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Mephisto = false;
+	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = false;
+		Config.Mephisto.KillCouncil = true;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***
@@ -93,7 +93,7 @@ function LoadConfig() {
 		Config.Hephasto.ClearType = 0xF; // 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = false;
+	Scripts.Diablo = true;
 		Config.Diablo.WalkClear = false; // Disable teleport while clearing to protect leechers
 		Config.Diablo.Entrance = true; // Start from entrance
 		Config.Diablo.SealWarning = "Leave the seals alone!";
@@ -104,9 +104,9 @@ function LoadConfig() {
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
 
 	// *** act 5 ***
-	Scripts.Pindleskin = false;
+	Scripts.Pindleskin = true;
 		Config.Pindleskin.UseWaypoint = false;
-		Config.Pindleskin.KillNihlathak = true;
+		Config.Pindleskin.KillNihlathak = false;
 		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -125,7 +125,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
-	Scripts.Baal = false;
+	Scripts.Baal = true;
 		Config.Baal.HotTPMessage = "Hot TP!";
 		Config.Baal.SafeTPMessage = "Safe TP!";
 		Config.Baal.BaalMessage = "Baal!";
@@ -447,10 +447,10 @@ function LoadConfig() {
 	Config.MinGameTime = 60; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to secondary (non-primary) slot when teleporting more than 5 nodes.
-	Config.OpenChests = false; // Open chests. Controls key buying.
+	Config.OpenChests = true; // Open chests. Controls key buying.
 	Config.MiniShopBot = true; // Scan items in NPC shops.
 	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
-	Config.TownCheck = false; // Go to town if out of potions
+	Config.TownCheck = true; // Go to town if out of potions
 	Config.LogExperience = false; // Print experience statistics in the manager.
 	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
 	Config.Silence = false; // Make the bot not say a word. Do not use in combination with LocalChat
