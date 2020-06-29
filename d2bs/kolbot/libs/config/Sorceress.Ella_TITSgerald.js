@@ -79,7 +79,7 @@ function LoadConfig() {
 	Scripts.Icehawk = false;
 	Scripts.Endugu = false;
 	Scripts.Travincal = true;
-		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
+		Config.Travincal.PortalLeech = true; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = true;
@@ -538,7 +538,7 @@ function LoadConfig() {
 	// Config.ClearPath = 0; // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Config.ClearPath = {
 		// Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
-		Range: 30, // Range to clear while traveling
+		Range: 25, // Range to clear while traveling
 		Spectype: 0xF, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	};
 
