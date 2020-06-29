@@ -1,0 +1,2 @@
+[2020/06/29 12:33:35] <Hammy> Error in MFHelper (mfhelper.js line 115): MFHelper: Leader not partied
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, MFHelper@mfhelper.js:115
