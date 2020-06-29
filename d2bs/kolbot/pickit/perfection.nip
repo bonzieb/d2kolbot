@@ -2425,3 +2425,4 @@
 
 // mana + hp/fhr
 [name] == grandcharm && [quality] == magic # [maxmana] == 59 && ([maxhp] >= 30 || [fhr] == 12)
+

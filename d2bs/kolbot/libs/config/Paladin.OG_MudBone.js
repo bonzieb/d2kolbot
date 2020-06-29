@@ -512,7 +512,6 @@ function LoadConfig() {
 	//     Range: 20, // Range to clear while traveling
 	//     Spectype: 0x7, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	// };
-
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 
