@@ -529,7 +529,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Clear while traveling during bot scripts
 	// You have two methods to configure clearing. First is simply a spectype to always clear, in any area, with a default range of 30
