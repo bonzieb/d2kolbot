@@ -46,7 +46,7 @@ function LoadConfig() {
 	Scripts.Smith = false;
 	Scripts.BoneAsh = false;
 	Scripts.Countess = false;
-		Config.Countess.KillGhosts = true;
+		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = false;
 	Scripts.Cows = false;
 
@@ -56,8 +56,8 @@ function LoadConfig() {
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
 	Scripts.AncientTunnels = false;
-		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
-		Config.AncientTunnels.KillDarkElder = true;
+		Config.AncientTunnels.OpenChest = false; // Open special chest in Lost City
+		Config.AncientTunnels.KillDarkElder = false;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
@@ -71,7 +71,7 @@ function LoadConfig() {
 	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = false;
-		Config.Mephisto.MoatTrick = true;
+		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
 
@@ -93,7 +93,7 @@ function LoadConfig() {
 	// *** act 5 ***
 	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
-		Config.Pindleskin.KillNihlathak = false;
+		Config.Pindleskin.KillNihlathak = true;
 		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
 	Scripts.Nihlathak = false;
 		Config.Nihlathak.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -126,9 +126,9 @@ function LoadConfig() {
 	*/
 
 	Config.Leader = "Ella_TITSgerald"; // Leader's ingame character name. Leave blank to try auto-detection (works in AutoBaal, Wakka, MFHelper)
-	Config.QuitList = ["Ella_TITSgerald", "OG_MudBone", "Dam_son"]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
+	Config.QuitList = ["Ella_TITSgerald"]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
 	Config.QuitListMode = 0; // 0 = use character names; 1 = use profile names (all profiles must run on the same computer).
-	Config.QuitListDelay = [1,5]; // Quit the game with random delay in case of using Config.QuitList. Example: Config.QuitListDelay = [1, 10]; will exit with random delay between 1 and 10 seconds.
+	Config.QuitListDelay = [1, 10]; // Quit the game with random delay in case of using Config.QuitList. Example: Config.QuitListDelay = [1, 10]; will exit with random delay between 1 and 10 seconds.
 
 	Scripts.TristramLeech = false; // Enters Tristram, attempts to stay close to the leader and will try and help kill.
 	Scripts.TravincalLeech = false; // Enters portal at back of Travincal.
@@ -141,19 +141,18 @@ function LoadConfig() {
 		Config.DiabloHelper.Entrance = true; // Start from entrance. Set to false to start from star.
 		Config.DiabloHelper.SkipTP = false; // Don't wait for town portal and directly head to chaos. It will clear monsters around chaos entrance and wait for the runner.
 		Config.DiabloHelper.SkipIfBaal = false; // End script if there are party members in a Baal run.
-	Scripts.MFHelper2 = false; // Run the same MF run as the MFLeader. Leader must have Config.MFLeader = true
 	Scripts.AutoBaal = false; // Baal leecher with auto leader assignment
 		Config.AutoBaal.FindShrine = false; // false = disabled, 1 = search after hot tp message, 2 = search as soon as leader is found
 		Config.AutoBaal.LeechSpot = [15115, 5050]; // X, Y coords of Throne Room leech spot
 		Config.AutoBaal.LongRangeSupport = false; // Cast long distance skills from a safe spot
 	Scripts.BaalHelper = true;
-	   Config.BaalHelper.Wait = 360; // Seconds to wait for a runner to be in Throne
-	   Config.BaalHelper.KillNihlathak = false; // Kill Nihlathak before going to Throne
-	   Config.BaalHelper.FastChaos = false; // Kill Diablo before going to Throne
-	   Config.BaalHelper.DollQuit = false;  // End script if Dolls (Undead Soul Killers) are found.
-	   Config.BaalHelper.KillBaal = true; // Kill Baal. If set to false, you must configure Config.QuitList or the bot will wait indefinitely.
-	   Config.BaalHelper.SkipTP = false; // Don't wait for a TP, go to WSK3 and wait for someone to go to throne. Anti PK measure.
-   Scripts.Follower = false; // Script that follows a manually played leader around like a merc. For a list of commands, see Follower.js
+		Config.BaalHelper.Wait = 360; // Seconds to wait for a runner to be in Throne
+		Config.BaalHelper.KillNihlathak = false; // Kill Nihlathak before going to Throne
+		Config.BaalHelper.FastChaos = false; // Kill Diablo before going to Throne
+		Config.BaalHelper.DollQuit = false;  // End script if Dolls (Undead Soul Killers) are found.
+		Config.BaalHelper.KillBaal = true; // Kill Baal. If set to false, you must configure Config.QuitList or the bot will wait indefinitely.
+		Config.BaalHelper.SkipTP = false; // Don't wait for a TP, go to WSK3 and wait for someone to go to throne. Anti PK measure.
+	Scripts.Follower = false; // Script that follows a manually played leader around like a merc. For a list of commands, see Follower.js
 
 	// *** special scripts ***
 	Scripts.WPGetter = false; // Get missing waypoints
@@ -198,11 +197,11 @@ function LoadConfig() {
 		Config.ShopBot.CycleDelay = 0; // Delay between shopping cycles in milliseconds, might help with crashes.
 		Config.ShopBot.QuitOnMatch = false; // Leave game as soon as an item is shopped.
 	Scripts.ChestMania = false; // Open chests in configured areas. See sdk/areas.txt
-		Config.ChestMania.Act1 = //[13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
-		Config.ChestMania.Act2 = //[55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
+		Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
+		Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
 		Config.ChestMania.Act3 = [79, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
-		Config.ChestMania.Act4 = //[]; // List of act 4 areas to open chests in
-		Config.ChestMania.Act5 = //[115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
+		Config.ChestMania.Act4 = []; // List of act 4 areas to open chests in
+		Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 	Scripts.ClearAnyArea = false; // Clear any area. Uses Config.ClearType to determine which type of monsters to kill.
 		Config.ClearAnyArea.AreaList = []; // List of area ids to clear. See sdk/areas.txt
 
@@ -332,9 +331,9 @@ function LoadConfig() {
 	Config.RepairPercent = 40; // Durability percent of any equipped item that will trigger repairs.
 
 	// Gambling config
-	Config.Gamble = false;
-	Config.GambleGoldStart = 1000000;
-	Config.GambleGoldStop = 500000;
+	Config.Gamble = true;
+	Config.GambleGoldStart = 2000000;
+	Config.GambleGoldStop = 1500000;
 
 	// List of item names or classids for gambling. Check libs/NTItemAlias.dbl file for other item classids.
 	Config.GambleItems.push("Amulet");
@@ -425,21 +424,21 @@ function LoadConfig() {
 	Config.UnpartyShitlisted = false; // Leave party if someone invited a blacklisted player.
 
 	// General config
-	Config.AutoMap = true; // Set to true to open automap at the beginning of the game.
+	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
-	Config.MinGameTime = 600; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
+	Config.MinGameTime = 60; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
 	Config.TeleSwitch = false; // Switch to secondary (non-primary) slot when teleporting more than 5 nodes.
 	Config.OpenChests = false; // Open chests. Controls key buying.
 	Config.MiniShopBot = true; // Scan items in NPC shops.
-	Config.PacketShopping = true; // Use packets to shop. Improves shopping speed.
-	Config.TownCheck = true; // Go to town if out of potions
+	Config.PacketShopping = false; // Use packets to shop. Improves shopping speed.
+	Config.TownCheck = false; // Go to town if out of potions
 	Config.LogExperience = false; // Print experience statistics in the manager.
 	Config.PingQuit = [{Ping: 0, Duration: 0}]; // Quit if ping is over the given value for over the given time period in seconds.
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	Config.ScanShrines = [1,2,3,6,8,10,12,15];
+	Config.ScanShrines = [];
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch to non-primiary weapon slot. Set to 0 to disable.
@@ -471,7 +470,7 @@ function LoadConfig() {
 	// Monster skip config
 	// Skip immune monsters. Possible options: "fire", "cold", "lightning", "poison", "physical", "magic".
 	// You can combine multiple resists with "and", for example - "fire and cold", "physical and cold and poison"
-	Config.SkipImmune = ["magic"];
+	Config.SkipImmune = ["magic and physical"];
 	// Skip enchanted monsters. Possible options: "extra strong", "extra fast", "cursed", "magic resistant", "fire enchanted", "lightning enchanted", "cold enchanted", "mana burn", "teleportation", "spectral hit", "stone skin", "multiple shots".
 	// You can combine multiple enchantments with "and", for example - "cursed and extra fast", "mana burn and extra strong and lightning enchanted"
 	Config.SkipEnchant = [];
@@ -504,14 +503,9 @@ function LoadConfig() {
 		//"Monster Name": [-1, -1]
 	};
 
-	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
+	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0xF; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 
-	// Config.ClearPath = {
-	//     //Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
-	//     Range: 20, // Range to clear while traveling
-	//     Spectype: 0x7, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	// };
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
 
