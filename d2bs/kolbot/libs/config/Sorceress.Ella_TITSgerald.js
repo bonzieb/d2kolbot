@@ -79,7 +79,7 @@ function LoadConfig() {
 	Scripts.Icehawk = false;
 	Scripts.Endugu = false;
 	Scripts.Travincal = true;
-		Config.Travincal.PortalLeech = true; // Set to true to open a portal for leechers.
+		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = true;
@@ -319,8 +319,8 @@ function LoadConfig() {
 	Config.AutoMule.Exclude = [];
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
-	Config.ItemInfo = false; // Log stashed, skipped (due to no space) or sold items.
-	Config.ItemInfoQuality = []; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
+	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
+	Config.ItemInfoQuality = [1,2,3,4,5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
 	Config.CainID.Enable = false; // Identify items at Cain
@@ -529,7 +529,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Clear while traveling during bot scripts
 	// You have two methods to configure clearing. First is simply a spectype to always clear, in any area, with a default range of 30

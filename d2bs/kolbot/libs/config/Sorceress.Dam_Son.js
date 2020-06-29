@@ -317,8 +317,8 @@ function LoadConfig() {
 	Config.AutoMule.Exclude = [];
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
-	Config.ItemInfo = false; // Log stashed, skipped (due to no space) or sold items.
-	Config.ItemInfoQuality = []; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
+	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
+	Config.ItemInfoQuality = [1,2,3,4,5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
 	Config.CainID.Enable = false; // Identify items at Cain
@@ -440,7 +440,7 @@ function LoadConfig() {
 	Config.UnpartyShitlisted = false; // Leave party if someone invited a blacklisted player.
 
 	// General config
-	Config.AutoMap = false; // Set to true to open automap at the beginning of the game.
+	Config.AutoMap = true; // Set to true to open automap at the beginning of the game.
 	Config.LastMessage = ""; // Message or array of messages to say at the end of the run. Use $nextgame to say next game - "Next game: $nextgame" (works with lead entry point)
 	Config.MinGameTime = 60; // Min game time in seconds. Bot will TP to town and stay in game if the run is completed before.
 	Config.MaxGameTime = 0; // Maximum game time in seconds. Quit game when limit is reached.
