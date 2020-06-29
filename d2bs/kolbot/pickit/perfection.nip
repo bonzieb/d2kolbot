@@ -1265,10 +1265,10 @@
 
 //~~~~~~~~~~~~~~~~~ GLOVES
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 20 && [itemaddjavelinandspearskilltab] >= 2
+[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 20 && ([itemaddjavelinandspearskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 2))
 // rare or magic gloves with jav skills and 10+ ias and (manalife leech OR crushing blow OR str+dex OR knockback) and (non eth or eth w/ replenish dur)
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && [itemaddjavelinandspearskilltab] >= 1 && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1))
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && [itemaddjavelinandspearskilltab] >= 1 && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1)
+[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1))
+[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1)
 [Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && ([fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 40 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [Enhanceddefense] >= 185 || [Lifeleech] >= 4 || [itemcrushingblow] >= 6 || [itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2)
 
 
