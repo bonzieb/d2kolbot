@@ -30,6 +30,7 @@ function Countess() {
 		break;
 	}
 
+	Pather.makePortal();
 	Attack.clear(20, 0, getLocaleString(2875)); // The Countess
 
 	if (Config.OpenChests) {

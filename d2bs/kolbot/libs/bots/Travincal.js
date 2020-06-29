@@ -39,6 +39,9 @@ function Travincal() {
 		delay(1000);
 		Precast.doPrecast(true);
 	}
+	else {
+		Pather.makePortal();
+	}
 
 	if (me.getSkill(143, 0) && !me.getSkill(54, 0) && !me.getStat(97, 54)) {
 		coords = [60, -53, 64, -72, 78, -72, 74, -88];
