@@ -88,8 +88,8 @@
 
 // Craftin mats
 [name] == jewel
-[name] == amulet && [Quality] == magic  && [Level] >= 85 # # [MaxQuantity] == 8
-[name] == ring && [Quality] == magic && [Level] >= 85 # # [MaxQuantity] == 8
+[name] == amulet && [Quality] == magic  && [Level] >= 86 # # [MaxQuantity] == 8
+[name] == ring && [Quality] == magic && [Level] >= 86 # # [MaxQuantity] == 8
 [name] == VampireboneGloves && [Quality] == magic // blood gloves
 [name] == BrambleMitts && [Quality] == magic // caster gloves
 
