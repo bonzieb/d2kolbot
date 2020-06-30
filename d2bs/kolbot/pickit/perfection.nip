@@ -152,7 +152,7 @@
 // [Name] == WingedHelm && [Quality] == Set // Guillaume's Face
 
 // == Tal Rasha's Wrappings == Sorceress Set
-[name] == swirlingcrystal && [quality] == set # [skilllightningmastery]+[skillfiremastery]+[skillcoldmastery] >= 6
+[name] == swirlingcrystal && [quality] == set # [skilllightningmastery] == 2 || [skillfiremastery] == 2 || [skillcoldmastery] == 2
 //[name] == deathmask && [quality] == set
 [name] == lacqueredplate && [quality] == set
 //[name] == meshbelt && [quality] == set
@@ -1780,8 +1780,8 @@
 
 // White Weapons
 
-[Name] == Berserkeraxe && [Quality] <= Superior # [sockets] == 5
-[Name] == Berserkeraxe && [Quality] <= Superior && [Flag] == Ethereal # [sockets] == 6
+[Name] == Berserkeraxe && [Quality] == Superior # [sockets] == 5
+[Name] == Berserkeraxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 6
 [Name] == Phaseblade && [Quality] == Superior # [sockets] == 5
 [Name] == Phaseblade && [Quality] == Superior # [sockets] == 6
 
@@ -1846,23 +1846,22 @@
 // Paladin Ebugged Exile Shields
 [Name] == Sacredtarge && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [enhanceddamage] >= 40
 [Name] == Sacredrondache && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [enhanceddamage] >= 40
-[Name] == Sacredtarge && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 35
-[Name] == Sacredrondache && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 35
-[Name] == Zakarumshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 35
-[Name] == Kurastshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 35
-[Name] == Vortexshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 35
+[Name] == Sacredtarge && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 40
+[Name] == Sacredrondache && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 40
+[Name] == Zakarumshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 40
+[Name] == Kurastshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 40
+[Name] == Vortexshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [fireresist] >= 40
 [Name] == Vortexshield && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [enhanceddamage] >= 40
 
 // Paladin Exile Shields (Not Buggable)
-
-[Name] == Sacredtarge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
-[Name] == Sacredrondache && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
-[Name] == Sacredtarge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
-[Name] == Sacredrondache && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
-[Name] == Zakarumshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
-[Name] == Kurastshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
-[Name] == Vortexshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
-[Name] == Vortexshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
+// [Name] == Sacredtarge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
+// [Name] == Sacredrondache && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
+// [Name] == Sacredtarge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
+// [Name] == Sacredrondache && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
+// [Name] == Zakarumshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
+// [Name] == Kurastshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
+// [Name] == Vortexshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [fireresist] >= 35
+// [Name] == Vortexshield && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 40
 
 // White Assassin Claws
 
