@@ -20,3 +20,13 @@ Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
 [2020/06/30 02:16:28] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 03:20:23] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 03:59:09] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 04:08:05] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 05:53:35] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 06:02:46] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
