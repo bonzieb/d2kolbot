@@ -1780,8 +1780,8 @@
 
 // White Weapons
 
-[Name] == Berserkeraxe && [Quality] <= Superior # [sockets] == 5
-[Name] == Berserkeraxe && [Quality] <= Superior && [Flag] == Ethereal # [sockets] == 6
+[Name] == Berserkeraxe && [Quality] == Superior # [sockets] == 5
+[Name] == Berserkeraxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 6
 [Name] == Phaseblade && [Quality] == Superior # [sockets] == 5
 [Name] == Phaseblade && [Quality] == Superior # [sockets] == 6
 
