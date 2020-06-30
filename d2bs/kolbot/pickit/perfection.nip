@@ -1267,8 +1267,8 @@
 //~~~~~~~~~~~~~~~~~ GLOVES
 
 // Crafting base
-[name] == VampireboneGloves && [Quality] == magic // blood gloves
-[name] == BrambleMitts && [Quality] == magic // caster gloves
+[name] == VampireboneGloves && [Quality] == magic # # [MaxQuantity] == 2// blood gloves
+[name] == BrambleMitts && [Quality] == magic # # [MaxQuantity] == 2// caster gloves
 
 // LLD zon gloves
 [type] == gloves && [quality] == magic # [itemaddpassiveandmagicskilltab] == 3 && [itemlevelreq] <= 30 && [ias] == 20
