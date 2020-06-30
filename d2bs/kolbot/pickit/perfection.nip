@@ -580,7 +580,7 @@
  
 [Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 4 && ([maxhp] >= 35 || [strength] >= 18 || [strength]+[dexterity] >= 12 || [dexterity] >= 13 ||[fireresist]+[lightresist]+[coldresist] >= 18 || [lightresist]+[fireresist] >= 35 || [lightresist]+[coldresist] >= 35 || [fireresist]+[coldresist] >= 35 || [hpregen] >= 7 || [manaleech] >= 3)
 
-[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 5 && ([maxhp] >= 30 || [strength] >= 16 || [strength]+[dexterity] >= 12 || [dexterity] >= 11 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 30 || [lightresist]+[coldresist] >= 30 || [fireresist]+[coldresist] >= 30 || [hpregen] >= 6 || [manaleech] >= 3) 
+[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 5 && ([maxhp] >= 30 || [strength] >= 16 || [strength]+[dexterity] >= 12 || [dexterity] >= 11 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 30 || [lightresist]+[coldresist] >= 25 || [fireresist]+[coldresist] >= 25 || [hpregen] >= 6 || [manaleech] >= 3) 
 
 [Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 6 && ([maxhp] >= 30 || [strength] >= 14 || [Strength]+[Dexterity] >= 15 || [dexterity] >= 9 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 25 || [lightresist]+[coldresist] >= 25 || [fireresist]+[coldresist] >= 25 || [hpregen] >= 6 || [manaleech] >= 2)
 
@@ -803,21 +803,21 @@
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [fhr] >= 20 && [dexterity] >= 15
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [fhr] >= 20 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [fhr] >= 20 && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30 && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30 && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30 && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25 && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25 && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25 && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxmana] >= 40
@@ -836,21 +836,21 @@
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fhr] >= 10
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [frw] >= 30
 
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25 && [frw] >= 20
 
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxhp] >= 30
@@ -866,18 +866,18 @@
 
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [maxmana] >= 80
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30 && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25 && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25 && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25 && [frw] >= 20
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [frw] >= 20 && [maxhp] >= 30
@@ -885,15 +885,15 @@
 
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [maxmana] >= 80
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30 && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30 && [strength] >= 15
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30 && [strength]>= 15
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30 && [strength]>= 15
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25 && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25 && [strength] >= 15
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25 && [strength]>= 15
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25 && [strength]>= 15
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [frw] >= 20 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 && [strength] >= 15
@@ -913,9 +913,9 @@
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 15 && [strength] >= 20 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 15 && [strength] >= 20 && [maxmana] >= 60
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 15 && [strength] >= 20 && [fhr] >= 10
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [dexterity] >= 15 && [strength] >= 20 && [frw] >= 30
@@ -924,15 +924,15 @@
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 40
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 40
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25
 
 
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [sockets] >= 2
@@ -943,24 +943,24 @@
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fhr] >= 10
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15 
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 15 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [strength] >= 20 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10  && [maxmana] >= 40
@@ -980,21 +980,21 @@
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [dexterity] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10  && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30  && [frw] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30  && [frw] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30  && [frw] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [coldresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 30 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [coldresist] >= 25 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [fhr] >= 10 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10  && [maxmana] >= 40
@@ -1011,18 +1011,18 @@
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1  && [maxmana] >= 60
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [dexterity] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1  && [frw] >= 30 
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 30  && [frw] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 30  && [frw] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 30 && [lightresist] >= 30  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [coldresist] >= 25  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 30 && [lightresist] >= 25  && [frw] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [coldresist] >= 25 && [lightresist] >= 25  && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10  && [maxmana] >= 40
@@ -1035,45 +1035,45 @@
 [Type] == Circlet && [Quality] == Rare # [trapsskilltab] >= 2 && [fcr] >= 20 && [itemtohitpercentperlevel] >= 1 && [frw] >= 30 && [maxmana] >= 40
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [maxmana] >= 80
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [frw] >= 20
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [frw] >= 20
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10  && [frw] >= 20
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [frw] >= 20 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [dexterity] >= 15 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [maxmana] >= 80
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [maxmana] >= 40
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [fhr] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [strength] >= 15
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [strength] >= 15
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [strength] >= 15
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [dexterity] >= 10
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 30 && [lightresist] >= 30  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [maxmana] >= 40
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [fhr] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [strength] >= 15
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [strength] >= 15
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [strength] >= 15
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [dexterity] >= 10
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [coldresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 30 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [coldresist] >= 25 && [lightresist] >= 25  && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10  && [frw] >= 20
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [fcr] >= 20 && [frw] >= 30 && [dexterity] >= 10 && [maxhp] >= 30
@@ -1091,24 +1091,24 @@
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [itemtohitpercentperlevel] >= 1
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [maxmana] >= 60
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25 && [maxhp] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25 && [maxhp] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [maxhp] >= 30 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [frw] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [dexterity] >= 20 && [strength] >= 20 && [fhr] >= 10
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 15 && [coldresist] >= 15 && [lightresist] >= 15 && [poisonresist] >= 15
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [coldresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [coldresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 30 && [coldresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 30 && [lightresist] >= 30
-[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [coldresist] >= 30 && [lightresist] >= 30
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [coldresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [fireresist] >= 30 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [strength] >= 20 && [coldresist] >= 25 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [coldresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [fireresist] >= 30 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [dexterity] >= 15 && [coldresist] >= 25 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 30 && [coldresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [fireresist] >= 30 && [lightresist] >= 25
+[Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [frw] >= 30 && [maxhp] >= 40 && [coldresist] >= 25 && [lightresist] >= 25
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [strength] >= 20  && [enhanceddamage] >= 30
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [strength] >= 20  && [dexterity] >= 15
 [Type] == Circlet && [Quality] == Rare # [ItemAddSkillTab] >= 2 && [strength] >= 20  && [maxhp] >= 40
@@ -1282,12 +1282,12 @@
 
 [Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [dexterity] >= 15 && [itemcrushingblow] >= 10 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 20 || [fireresist]+[lightresist] >= 20 || [lightresist]+[coldresist] >= 20 || [coldresist] >= 25 || [fireresist] >= 25 || [lightresist] >= 25)
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [itemcrushingblow] >= 8 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [itemcrushingblow] >= 8 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
 
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35 || [lifeleech] >= 3)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35 || [lifeleech] >= 3)
 
 
 [Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 7 && ([lifeleech] >= 3 || [maxhp] >= 15 ||[fireresist]+[coldresist] >= 20 || [fireresist]+[lightresist] >= 20 || [lightresist]+[coldresist] >= 20 )
@@ -1302,50 +1302,50 @@
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~BOOTS~~~~~~~~~~~~~~~~~~~~
 
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 35 && [coldresist] >= 35 && [lightresist] >= 35
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 25 && [coldresist] >= 30 && [lightresist] >= 30 && [frw] >= 30
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 25 && [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 30 && [fhr] >= 10 && [frw] >= 20
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [frw] >= 20
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [frw] >= 20
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 30 && [fhr] >= 10 && [maxmana] >= 15
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [maxmana] >= 15
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [maxmana] >= 15
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 30 && [fhr] >= 10 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 30 && [lightresist] >= 30 && [fhr] >= 10 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 30 && [frw] >= 30 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 30 && [frw] >= 30 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 30 && [lightresist] >= 30 && [frw] >= 30 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 25 && [lightresist] >= 25
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 25 && [coldresist] >= 25 && [lightresist] >= 25 && [frw] >= 30
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 25 && [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 25 && [fhr] >= 10 && [frw] >= 20
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 25 && [fhr] >= 10 && [frw] >= 20
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10 && [frw] >= 20
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 25 && [fhr] >= 10 && [maxmana] >= 15
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 25 && [fhr] >= 10 && [maxmana] >= 15
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10 && [maxmana] >= 15
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 25 && [fhr] >= 10 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 25 && [fhr] >= 10 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 25 && [lightresist] >= 25 && [fhr] >= 10 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [coldresist] >= 25 && [frw] >= 30 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [fireresist] >= 30 && [lightresist] >= 25 && [frw] >= 30 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] != Ethereal # [coldresist] >= 25 && [lightresist] >= 25 && [frw] >= 30 && [dexterity] >= 6
 
-[Type] == Boots && [Quality] == Rare && [Flag] == Ethereal # [itemreplenishdurability] >= 1 && [enhanceddefense] >= 190 && [dexterity] >= 6
-[Type] == Boots && [Quality] == Rare && [Flag] == Ethereal # [itemreplenishdurability] >= 1 && [enhanceddefense] >= 190 && [fhr] >= 10
+[Type] == Boots && [Quality] == Rare && [Flag] == Ethereal # [itemreplenishdurability] >= 1 && [enhanceddefense] >= 170 && [dexterity] >= 6
+[Type] == Boots && [Quality] == Rare && [Flag] == Ethereal # [itemreplenishdurability] >= 1 && [enhanceddefense] >= 170 && [fhr] >= 10
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BELTS~~~~~~~~~~~~~~~~~~~~
 
 
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [maxmana] == 40 && [manarecoverybonus] == 10
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [maxmana] >= 30 && [manarecoverybonus] >= 5
 
 [Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && ([maxhp] >= 40 || [strength] >= 18 || [fireresist]+[coldresist] >= 40 || [fireresist]+[lightresist] >= 40 || [lightresist]+[coldresist] >= 40 || [maxmana] >= 35)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [maxhp] >= 30 && ([strength] >= 13 || [fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 25)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [maxhp] >= 30 && ([strength] >= 13 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 25)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 25)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 25)
 
 [Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 15 && [fcr] >= 10 && ([maxhp] >= 50 || [strength] >= 20 || [fireresist]+[coldresist] >= 40 || [fireresist]+[lightresist] >= 40 || [lightresist]+[coldresist] >= 40 || [maxmana] >= 35)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 15 && [fcr] >= 10 && [maxhp] >= 30 && ([strength] >= 13 || [fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 25)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 15 && [fcr] >= 10 && [maxhp] >= 30 && ([strength] >= 13 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 25)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 15 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 25)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 15 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 25)
 
 [Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 8 && [maxhp] >= 8 && [strength] >= 8 && [maxmana] >= 8
 
 [Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 10 && ([maxhp] >= 55 || [strength] >= 25 || [fireresist]+[coldresist] >= 45 || [fireresist]+[lightresist] >= 45 || [lightresist]+[coldresist] >= 45 || [maxmana] >= 40)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 10 && [maxhp] >= 35 && ([strength] >= 15 || [fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 35)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 10 && [maxhp] >= 35 && ([strength] >= 15 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 35)
 
-[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 30 || [fireresist]+[lightresist] >= 30 || [lightresist]+[coldresist] >= 30 || [maxmana] >= 35)
+[Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 8 && [fcr] >= 10 && [strength] >= 15 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [maxmana] >= 35)
 
 
 [Type] == Belt && ([Quality] == Rare || [quality] == crafted) && [Flag] != Ethereal # [fhr] >= 24 && [strength] >= 20 && [maxhp] >= 55
@@ -1475,8 +1475,8 @@
 [Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [coldresist]>= 30 && [fhr] >= 10
 [Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [lightresist]>= 30 && [maxhp] >= 15
 [Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [lightresist]>= 30 && [fhr] >= 10
-[Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [coldresist] >= 30 && [lightresist]>= 30 && [maxhp] >= 15
-[Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [coldresist] >= 30 && [lightresist]>= 30 && [fhr] >= 10
+[Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [coldresist] >= 25 && [lightresist]>= 30 && [maxhp] >= 15
+[Type] == Pelt && [Quality] == Rare # [druidskills] >= 2 && [skilltornado] >= 3 && [coldresist] >= 25 && [lightresist]>= 30 && [fhr] >= 10
 
 [Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [sockets] >= 2
 [Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [itemtohitpercentperlevel] >= 1
@@ -1486,8 +1486,8 @@
 [Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [coldresist]>= 30 && [fhr] >= 10
 [Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [lightresist]>= 30 && [maxhp] >= 15
 [Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [fireresist] >= 30 && [lightresist]>= 30 && [fhr] >= 10
-[Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [coldresist] >= 30 && [lightresist]>= 30 && [maxhp] >= 15
-[Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [coldresist] >= 30 && [lightresist]>= 30 && [fhr] >= 10
+[Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [coldresist] >= 25 && [lightresist]>= 30 && [maxhp] >= 15
+[Type] == Pelt && [Quality] == Rare # [elementalskilltab] >= 2 && [skilltornado] >= 3 && [coldresist] >= 25 && [lightresist]>= 30 && [fhr] >= 10
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~NEC~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1711,7 +1711,7 @@
 
 //          ==rare==
 [Name] == jewel && [Quality] == rare # [strength] >= 9 && [dexterity] >= 9
-[Name] == jewel && [Quality] == rare # [fhr] == 7 && ([strength] >= 8 || [dexterity] >= 8 || [itemreqpercent] == 15) && ([maxmana] == 15 || [fireresist] >= 10 && [coldresist] >= 10 || [fireresist] >= 30 || [coldresist] >= 30 || [lightresist] >= 30)
+[Name] == jewel && [Quality] == rare # [fhr] == 7 && ([strength] >= 8 || [dexterity] >= 8 || [itemreqpercent] == 15) && ([maxmana] == 15 || [fireresist] >= 10 && [coldresist] >= 10 || [fireresist] >= 30 || [coldresist] >= 25 || [lightresist] >= 25)
 [Name] == jewel && [Quality] == rare # [fhr] == 7 && [energy] == 9 && [maxmana] == 15
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 25 && ([strength] >= 8 || [dexterity] >= 8) && ([tohit] >= 40 || [itemreqpercent] == 15 || [defense] >= 30)
 

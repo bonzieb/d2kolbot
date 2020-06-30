@@ -106,4 +106,6 @@
 [name] == superhealingpotion
 
 // runes, just incase
+[name] == ethrune # # [MaxQuantity] == 4
+[name] == nefrune # # [MaxQuantity] == 8
 [name] >= falrune && [name] <= zodrune 
