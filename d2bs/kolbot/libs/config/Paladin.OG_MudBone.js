@@ -438,7 +438,7 @@ function LoadConfig() {
 
 	// Shrine Scanner - scan for shrines while moving.
 	// Put the shrine types in order of priority (from highest to lowest). For a list of types, see sdk/shrines.txt
-	Config.ScanShrines = [];
+	Config.ScanShrines = [1,10,12,20];
 
 	// MF Switch
 	Config.MFSwitchPercent = 0; // Boss life % to switch to non-primiary weapon slot. Set to 0 to disable.
