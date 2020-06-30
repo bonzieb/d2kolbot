@@ -51,7 +51,7 @@ function LoadConfig() {
 	Scripts.Countess = true;
 		Config.Countess.KillGhosts = false;
 	Scripts.Andariel = true;
-	Scripts.Cows = true;
+	Scripts.Cows = false;
 
 	// *** act 2 ***
 	Scripts.Radament = false;

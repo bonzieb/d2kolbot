@@ -903,3 +903,35 @@
 [2020/06/30 00:21:57] <Hammy> <Kept> (magic) Ring (85) | Unidentified
 [2020/06/30 00:22:11] <Hammy> <Kept> (magic) Amulet (88) | Unidentified
 [2020/06/30 00:22:26] <Hammy> <Kept> (magic) Ring (85) | Unidentified
+[2020/06/30 00:23:24] <LiteSorc> <Sold> (rare) Stone Rock (80) | Minion Skull | Defense: 197 | Chance to Block: 33% | Durability: 13 of 20 | (Necromancer Only) | Required Strength: 54 | Required Level: 44 | +15% Faster Block Rate | 10% Increased Chance of Blocking | Adds 13-28 poison damage over 4 seconds | +2 to Decrepify (Necromancer Only) | +2 to Poison Explosion (Necromancer Only) | +1 to Life Tap (Necromancer Only) | +41% Enhanced Defense | Cold Resist +8% | Lightning Resist +8% | Fire Resist +8% | Poison Resist +14% | Attacker Takes Damage of 5 | Requirements -30%
+[2020/06/30 00:23:24] <LiteSorc> <Sold> (magic) Small Charm of Dexterity (80) | Keep in Inventory to Gain Bonus | Required Level: 16 | +2 to Dexterity
+[2020/06/30 00:23:33] <ColdSorc> <Sold> (magic) King's Cudgel (85) | One-Hand Damage: 11 to 39 | Durability: 15 of 24 | Required Strength: 25 | Required Level: 48 | Mace Class - Fast Attack Speed | +88% Enhanced Damage | +122 to Attack Rating | +50% Damage to Undead
+[2020/06/30 00:23:34] <ColdSorc> <Sold> (magic) Iron Large Charm of Vita (88) | Keep in Inventory to Gain Bonus | Required Level: 66 | +40 to Attack Rating | +32 to Life
+[2020/06/30 00:23:35] <ColdSorc> <Sold> (magic) Sharkskin Gloves of Thawing (88) | Defense: 35 | Durability: 8 of 14 | Required Strength: 20 | Required Level: 25 | Half Freeze Duration
+[2020/06/30 00:23:36] <ColdSorc> <Sold> (magic) Sturdy Heraldic Shield of the Wolf (88) | Defense: 32 | Chance to Block: 40% | Durability: 31 of 40 | (Paladin Only) | Required Strength: 40 | Required Level: 31 | +22% Enhanced Defense | +14 to Life | All Resistances +30
+[2020/06/30 00:24:09] <Hammy> <Dropped> (normal) Perfect Emerald (1) | Can be Inserted into Socketed Items |  | Weapons: +100 poison damage over 7 seconds | Armor: +10 to Dexterity | Helms: +10 to Dexterity | Shields: Poison Resist +40% |  | Required Level: 18 {doCubing}
+[2020/06/30 00:24:09] <Hammy> <Stashed> (magic) Ring
+[2020/06/30 00:24:11] <Hammy> <Stashed> (magic) Amulet
+[2020/06/30 00:24:11] <ColdSorc> <Sold> (rare) Hailstone Mangler (88) | Flail | One-Hand Damage: 1 to 41 | Durability: 24 of 30 | Required Dexterity: 35 | Required Strength: 41 | Required Level: 9 | Mace Class - Fast Attack Speed | +65% Enhanced Damage | +2 to Maximum Damage | +39 to Attack Rating | +96% Damage to Undead | +37 to Attack Rating against Undead | Adds 1-2 cold damage
+[2020/06/30 00:24:12] <Hammy> <Stashed> (magic) Ring
+[2020/06/30 00:24:12] <ColdSorc> <Sold> (rare) Raven Horn (94) | Poignard | One-Hand Damage: 8 to 24 | Durability: 11 of 16 | Required Strength: 25 | Required Level: 27 | Dagger Class - Very Fast Attack Speed | +36% Enhanced Damage | Adds 1-3 cold damage | +18 to Mana | Lightning Resist +7%
+[2020/06/30 00:24:13] <Hammy> <Stashed> (magic) Ring
+[2020/06/30 00:24:13] <ColdSorc> <Sold> (rare) Rune Nails (94) | Halberd | Two-Hand Damage: 26 to 97 | Durability: 28 of 28 | Required Dexterity: 37 | Required Strength: 65 | Required Level: 19 | Polearm Class - Fast Attack Speed | +45% Enhanced Damage | +88 to Attack Rating | +22% Damage to Demons | +29 to Attack Rating against Demons | Ethereal (Cannot be Repaired)
+[2020/06/30 00:24:37] <LiteSorc> <Sold> (magic) Snake's Grand Charm of Greed (83) | Keep in Inventory to Gain Bonus | Required Level: 23 | +37 to Mana | 28% Extra Gold from Monsters
+[2020/06/30 00:24:38] <LiteSorc> <Sold> (magic) Jade Demonhide Gloves (87) | Defense: 30 | Durability: 20 of 24 | Required Strength: 20 | Required Level: 21 | Poison Resist +21%
+[2020/06/30 00:24:39] <LiteSorc> <Sold> (magic) Bramble Mitts of Dexterity (83) | Defense: 60 | Durability: 11 of 12 | Required Strength: 50 | Required Level: 42 | +2 to Dexterity
+[2020/06/30 00:24:40] <LiteSorc> <Sold> (rare) Pain Spike (87) | Hydra Edge | One-Hand Damage: 42 to 104 | Durability: 28 of 32 | Required Dexterity: 105 | Required Strength: 142 | Required Level: 51 | Sword Class - Normal Attack Speed | +53% Enhanced Damage | 4% Mana stolen per hit | 9% Life stolen per hit | Knockback | Poison Resist +10%
+[2020/06/30 00:24:40] <ColdSorc> <Sold> (rare) Hailstone Visage (86) | War Hat | Defense: 71 | Durability: 7 of 12 | Required Strength: 20 | Required Level: 28 | 14% Chance to cast level 5 Nova when struck | +32% Enhanced Defense | +9 to Energy | +19 to Life | Poison Resist +8%
+[2020/06/30 00:24:40] <LiteSorc> <Sold> (rare) Loath Sever (87) | Sabre | One-Hand Damage: 7 to 19 | Durability: 30 of 32 | Required Dexterity: 25 | Required Strength: 25 | Required Level: 48 | Sword Class - Fast Attack Speed | +1 to Masteries (Barbarian Only) | +140% Enhanced Damage | +124 to Attack Rating | +50 poison damage over 5 seconds | 4% Mana stolen per hit
+[2020/06/30 00:24:41] <LiteSorc> <Sold> (rare) Corruption Eye (85) | Amulet | Required Level: 30 | 5% Chance to cast level 3 Frost Nova when struck | +2 to Passive and Magic Skills (Amazon Only) | +10% Faster Cast Rate | Lightning Resist +19% | Fire Resist +32%
+[2020/06/30 00:24:50] <ColdSorc> <Sold> (magic) Beryl Ring of Performance (89) | Required Level: 73 | +11 to Minimum Damage | Poison Resist +8% {Gambling}
+[2020/06/30 00:24:50] <ColdSorc> <Sold> (magic) Amulet of Maiming (90) | Required Level: 34 | +4 to Maximum Damage {Gambling}
+[2020/06/30 00:24:51] <ColdSorc> <Sold> (rare) Dread Hood (92) | Circlet | Defense: 44 | Durability: 35 of 35 | Required Level: 34 | +42% Enhanced Defense | +13 to Strength | +10 to Life | All Resistances +15 {Gambling}
+[2020/06/30 00:24:52] <ColdSorc> <Sold> (magic) Iron Ring (95) | Required Level: 3 | +25 to Attack Rating {Gambling}
+[2020/06/30 00:24:53] <ColdSorc> <Sold> (magic) Freezing Amulet (89) | Required Level: 30 | +2 to Cold Skills (Sorceress Only) {Gambling}
+[2020/06/30 00:24:53] <ColdSorc> <Sold> (magic) Maiden's Circlet (88) | Defense: 24 | Durability: 35 of 35 | Required Level: 27 | +1 to Amazon Skill Levels {Gambling}
+[2020/06/30 00:24:53] <ColdSorc> <Sold> (magic) Circlet of Wizardry (96) | Defense: 22 | Durability: 35 of 35 | Required Level: 23 | +20 to Energy {Gambling}
+[2020/06/30 00:24:55] <ColdSorc> <Sold> (magic) Ring of Charged Bolt (97) | Required Level: 19 | 14% Chance to cast level 5 Charged Bolt when struck {Gambling}
+[2020/06/30 00:24:55] <ColdSorc> <Sold> (magic) Beryl Amulet of Life (88) | Required Level: 26 | Poison Resist +8% | Damage Reduced by 4 {Gambling}
+[2020/06/30 00:24:55] <ColdSorc> <Sold> (magic) Amulet of Greed (96) | 28% Extra Gold from Monsters {Gambling}
+[2020/06/30 00:24:55] <ColdSorc> <Sold> (magic) Coronet of the Magus (91) | Defense: 35 | Durability: 30 of 30 | Required Level: 39 | +20% Faster Cast Rate {Gambling}
