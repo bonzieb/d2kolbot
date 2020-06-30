@@ -235,7 +235,7 @@
 [Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [LifeLeech]+[ManaLeech] >= 10 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 20 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
 [Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [LifeLeech] >= 7 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 32 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
 [Type] == Ring && [Quality] == rare # [Tohit] >= 100 && [LifeLeech] >= 7 && [ManaLeech] >= 6 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 || [MaxHp] >= 30 || [Dexterity] >= 10 || [Strength] >= 10 || [MinDamage] >= 8)
-[Type] == Ring && [Quality] == rare # [Tohit] >= 100 && ([LifeLeech] >= 7 || [ManaLeech] >= 6) && ([strength]+[dexterity] >= 12 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
+[Type] == Ring && [Quality] == rare # [Tohit] >= 100 && ([LifeLeech] >= 7 || [ManaLeech] >= 6) && ([strength]+[dexterity] >= 10 || [Dexterity] >= 15 || [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40)
 [Type] == Ring && [Quality] == rare # [ToHit] >= 100 && [ManaLeech] >= 7 && ([ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 32 || [MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 10 || [Dexterity] >= 10)
 [Type] == Ring && [Quality] == rare # [Tohit] >= 100 && [MinDamage] >= 8 && [MaxDamage] == 4 && ([Strength] >= 20 || [Dexterity] >= 15 || [MaxHp] >= 35)
 [Type] == Ring && [Quality] == rare # [ToHit] >= 90 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 36 && [LifeLeech]+[ManaLeech] >= 11
@@ -278,7 +278,7 @@
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && ([LifeLeech] >= 6 || [ManaLeech] >= 8) && ([Strength] >= 25 || [Dexterity] >= 15)
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength]+[Dexterity] >= 30
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Strength] >= 21 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40)
-[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [strength]+[dexterity] >= 12 && [ColdResist] >= 35
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [strength]+[dexterity] >= 10 && [ColdResist] >= 35
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [Dexterity] >= 16 && ([LifeLeech] >=7 || [ManaLeech] >= 7 || [MaxHp] >= 40)
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [LifeLeech] >= 5 && [ManaLeech] >= 5
 [Type] == Amulet && [Quality] == rare # ([BarbCombatSkillTab] == 2 || [WarCriesskilltab] == 2) && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
@@ -552,7 +552,7 @@
 
 //~~~~~~~~~~~~~~~~~~~~~~~HLD RINGS~~~~~~~~~~~~~~~~~~~~~~
 
-[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [strength]+[dexterity] >= 12 && ([MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [energy] == 15 || [maxhp] >= 30 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
+[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [strength]+[dexterity] >= 10 && ([MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [energy] == 15 || [maxhp] >= 30 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
 
 [Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [Strength] >= 18 && ([MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [energy] == 15 || [maxhp] >= 30 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
 
@@ -578,9 +578,9 @@
 
 [Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 3 && ([maxhp] >= 40 || [strength] >= 20 || [Strength]+[Dexterity] >= 28 || [dexterity] >= 15 ||[fireresist]+[lightresist]+[coldresist] >= 21 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 8 || [manaleech] >= 4)
  
-[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 4 && ([maxhp] >= 35 || [strength] >= 18 || [strength]+[dexterity] >= 12 || [dexterity] >= 13 ||[fireresist]+[lightresist]+[coldresist] >= 18 || [lightresist]+[fireresist] >= 35 || [lightresist]+[coldresist] >= 35 || [fireresist]+[coldresist] >= 35 || [hpregen] >= 7 || [manaleech] >= 3)
+[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 4 && ([maxhp] >= 35 || [strength] >= 18 || [strength]+[dexterity] >= 10 || [dexterity] >= 13 ||[fireresist]+[lightresist]+[coldresist] >= 18 || [lightresist]+[fireresist] >= 35 || [lightresist]+[coldresist] >= 35 || [fireresist]+[coldresist] >= 35 || [hpregen] >= 7 || [manaleech] >= 3)
 
-[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 5 && ([maxhp] >= 30 || [strength] >= 16 || [strength]+[dexterity] >= 12 || [dexterity] >= 11 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 30 || [lightresist]+[coldresist] >= 25 || [fireresist]+[coldresist] >= 25 || [hpregen] >= 6 || [manaleech] >= 3) 
+[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 5 && ([maxhp] >= 30 || [strength] >= 16 || [strength]+[dexterity] >= 10 || [dexterity] >= 11 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 30 || [lightresist]+[coldresist] >= 25 || [fireresist]+[coldresist] >= 25 || [hpregen] >= 6 || [manaleech] >= 3) 
 
 [Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 6 && ([maxhp] >= 30 || [strength] >= 14 || [Strength]+[Dexterity] >= 15 || [dexterity] >= 9 ||[fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 25 || [lightresist]+[coldresist] >= 25 || [fireresist]+[coldresist] >= 25 || [hpregen] >= 6 || [manaleech] >= 2)
 
@@ -589,20 +589,20 @@
 [Type] == Ring && [Quality] >= rare # [lifeleech] >= 9 && [strength]+[dexterity] >= 30 && ([maxhp] >= 20 || [fireresist]+[lightresist]+[coldresist] >= 15 || [lightresist]+[fireresist] >= 20 || [lightresist]+[coldresist] >= 20 || [fireresist]+[coldresist] >= 20 || [hpregen] >= 5 || [manaleech] >= 2)
 
 
-[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [maxhp] >= 35 && ([strength]+[dexterity] >= 12 || [MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
+[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [maxhp] >= 35 && ([strength]+[dexterity] >= 10 || [MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
 
 
-[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [lifeleech] >= 9 && ([strength]+[dexterity] >= 12 || [MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
+[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [lifeleech] >= 9 && ([strength]+[dexterity] >= 10 || [MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
 
 
 [Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [strength] >= 23 && ([MaxMana] >= 55 || [fireresist]+[lightresist]+[coldresist] >= 21 || [hpregen] >= 7 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40)
 
 
-[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [Attackrate] >= 90 && [strength]+[dexterity] >= 12 && ([Lifeleech] >= 5 || [Manaleech] >= 5 || [hpregen] >= 7 || [maxhp] >= 30)
+[Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [Attackrate] >= 90 && [strength]+[dexterity] >= 10 && ([Lifeleech] >= 5 || [Manaleech] >= 5 || [hpregen] >= 7 || [maxhp] >= 30)
 
 [Type] == Ring && [Quality] >= rare # [fcr] >= 10 && [Attackrate] >= 90 && [Lifeleech] >= 5 && ([Manaleech] >= 5 || [hpregen] >= 7 || [maxhp] >= 30)
 
-[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 9 && ([maxhp] >= 35 || [strength] >= 20 || [strength]+[dexterity] >= 12 ||[fireresist]+[lightresist]+[coldresist] >= 21 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 7 || [manaleech] >= 4 || [dexterity] == 19)
+[Type] == Ring && [Quality] >= rare # [attackrate] >= 100 && [lifeleech] >= 9 && ([maxhp] >= 35 || [strength] >= 20 || [strength]+[dexterity] >= 10 ||[fireresist]+[lightresist]+[coldresist] >= 21 || [lightresist]+[fireresist] >= 40 || [lightresist]+[coldresist] >= 40 || [fireresist]+[coldresist] >= 40 || [hpregen] >= 7 || [manaleech] >= 4 || [dexterity] == 19)
 
 [Type] == Ring && [Quality] >= rare # [attackrate] >= 80 && [lifeleech] >= 9 && ([maxhp] >= 40 || [strength] >= 22 || [Strength]+[Dexterity] >= 22 ||[fireresist]+[lightresist]+[coldresist] >= 24 || [lightresist]+[fireresist] >= 50 || [lightresist]+[coldresist] >= 50 || [fireresist]+[coldresist] >= 50 || [hpregen] >= 8 || [manaleech] >= 5 || [dexterity] == 19)
 
@@ -1265,34 +1265,39 @@
 
 //~~~~~~~~~~~~~~~~~ GLOVES
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 20 && ([itemaddjavelinandspearskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 2))
+// LLD zon gloves
+[type] == gloves && [quality] == magic # [itemaddpassiveandmagicskilltab] == 3 && [itemlevelreq] <= 30 && [ias] == 20
+// zon gloves
+[type] == gloves && [quality] == magic # ([itemaddjavelinandspearskilltab] == 3 && [itemaddbowandcrossbowskilltab] == 3) && [ias] == 20
+
+[Type] == Gloves && [Quality] == Rare # [ias] >= 20 && ([itemaddjavelinandspearskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 2))
 // rare or magic gloves with jav skills and 10+ ias and (manalife leech OR crushing blow OR str+dex OR knockback) and (non eth or eth w/ replenish dur)
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1))
-[Type] == Gloves && ([Quality] == Rare || [Quality] == Magic) # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1)
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && ([fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 40 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [Enhanceddefense] >= 185 || [Lifeleech] >= 4 || [itemcrushingblow] >= 6 || [itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2)
+[Type] == Gloves && [Quality] == Rare # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1))
+[Type] == Gloves && [Quality] == Rare # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && ([fireresist]+[coldresist]+[lightresist]+[poisonresist] >= 40 || [fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [Enhanceddefense] >= 185 || [Lifeleech] >= 4 || [itemcrushingblow] >= 6 || [itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2)
 
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 7 && [lifeleech] >= 3
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 7 && [lifeleech] >= 3
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 7 && [lifeleech] >= 3 && [maxhp] >= 20
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 7 && [lifeleech] >= 3 && [maxhp] >= 20
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [lifeleech]+[manaleech] >= 5
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [lifeleech]+[manaleech] >= 5
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [lifeleech]+[manaleech] >= 5 && [itemcrushingblow] >= 8
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [lifeleech]+[manaleech] >= 5 && [itemcrushingblow] >= 8
 
 [Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [dexterity] >= 15 && [itemcrushingblow] >= 10 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 20 || [fireresist]+[lightresist] >= 20 || [lightresist]+[coldresist] >= 20 || [coldresist] >= 25 || [fireresist] >= 25 || [lightresist] >= 25)
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [itemcrushingblow] >= 8 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 ||[itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 10 && [lifeleech] >= 3 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [itemcrushingblow] >= 8 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
 
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && ([itemaddmartialartsskilltab] >= 2 || [itemaddpassiveandmagicskilltab] >= 2 || [itemaddjavelinandspearskilltab] >= 2) && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35)
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35 || [lifeleech] >= 3)
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 9 && ([fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 || [coldresist] >= 35 || [fireresist] >= 35 || [lightresist] >= 35 || [lifeleech] >= 3)
 
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 7 && ([lifeleech] >= 3 || [maxhp] >= 15 ||[fireresist]+[coldresist] >= 20 || [fireresist]+[lightresist] >= 20 || [lightresist]+[coldresist] >= 20 )
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 7 && ([lifeleech] >= 3 || [maxhp] >= 15 ||[fireresist]+[coldresist] >= 20 || [fireresist]+[lightresist] >= 20 || [lightresist]+[coldresist] >= 20 )
 
-[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 12 && [itemcrushingblow] >= 6 && ([lifeleech] >= 4 || [maxhp] >= 15 ||[fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 )
+[Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [strength]+[dexterity] >= 10 && [itemcrushingblow] >= 6 && ([lifeleech] >= 4 || [maxhp] >= 15 ||[fireresist]+[coldresist] >= 25 || [fireresist]+[lightresist] >= 25 || [lightresist]+[coldresist] >= 25 )
 
 [Type] == Gloves && ([Quality] == Rare || [Quality] >= crafted) && [Flag] != Ethereal # [ias] >= 20 && [dexterity] >= 10 && ([fireresist]+[coldresist] >= 35 || [fireresist]+[lightresist] >= 35 || [lightresist]+[coldresist] >= 35 || [Enhanceddefense] >= 195 || [Lifeleech] >= 6 || [itemcrushingblow] >= 9)
 
@@ -1747,9 +1752,10 @@
 // White Armors
 
 [Name] == Mageplate && [Quality] == Superior && [Flag] != Ethereal # [sockets] == 3 && [enhanceddefense] >= 5
-[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
-[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
-[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
+[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 480 // && [enhanceddefense] >= 5
+[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 450 // && [enhanceddefense] >= 5
+[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 450 // && [enhanceddefense] >= 5
+[Name] == wyrmhide && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 468 // && [enhanceddefense] >= 5
 
 // Buggable armour
 [Name] == Boneweave && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [defense] >= 650
