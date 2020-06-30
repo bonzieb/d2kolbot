@@ -56,6 +56,7 @@
 [Name] == SpiderwebSash && [Quality] == unique && [Flag] != ethereal // Arachnid Mesh
 [Name] == VampirefangBelt && [Quality] == unique && [Flag] != ethereal // Nosferatu's Coil
 [Name] == MithrilCoil && [Quality] == unique && [Flag] != ethereal // Verdungo's Hearty Cord
+[Name] == BattleBelt && [Quality] == unique && [Flag] != ethereal # [enhancedDefense] >= 165 // Snowclash
 
 // ##### Barbarian Helms ###############
 [Name] == SlayerGuard && [Quality] == unique // Arreat's Face
