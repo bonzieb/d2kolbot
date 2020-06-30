@@ -87,6 +87,10 @@
 
 // Craftin mats
 [name] == jewel
+[name] == amulet && [Quality] == magic 
+[name] == ring && [Quality] == magic 
+[name] == VampireboneGloves && [Quality] == magic // blood gloves
+[name] == BrambleMitts && [Quality] == magic // caster gloves
 
 // Essences
 //[Name] == TwistedEssenceOfSuffering # # [MaxQuantity] == 5
