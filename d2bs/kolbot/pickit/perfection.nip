@@ -1746,10 +1746,10 @@
 
 // White Armors
 
-[Name] == Mageplate && [Quality] <= Superior && [Flag] != Ethereal # [sockets] == 3 && [enhanceddefense] >= 5
-[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
-[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
-[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
+[Name] == Mageplate && [Quality] == Superior && [Flag] != Ethereal # [sockets] == 3 && [enhanceddefense] >= 5
+[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
+[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
+[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) // && [enhanceddefense] >= 5
 
 // Buggable armour
 [Name] == Boneweave && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [defense] >= 650
@@ -1764,7 +1764,7 @@
 // White shields
 [name] == monarch && [quality] <= Superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] >= 148
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal #  ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] != 1 && [sockets] != 2)
-[name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] == 222 || [sockets] == 4 && [defense] == 333
+[name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 219 || [sockets] == 4 && [defense] == 333
 
 
 // White Weapons

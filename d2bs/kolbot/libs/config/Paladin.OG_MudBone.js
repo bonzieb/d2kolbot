@@ -305,7 +305,7 @@ function LoadConfig() {
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
 	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
-	Config.ItemInfoQuality = [1,2,3,4,5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
+	Config.ItemInfoQuality = [5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
 	Config.CainID.Enable = false; // Identify items at Cain
