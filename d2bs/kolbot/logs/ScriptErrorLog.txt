@@ -1,2 +1,34 @@
 [2020/06/29 12:33:35] <Hammy> Error in MFHelper (mfhelper.js line 115): MFHelper: Leader not partied
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, MFHelper@mfhelper.js:115
+[2020/06/29 18:05:39] <LiteSorc> Error in Countess (countess.js line 15): Failed to move to Countess
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Countess@countess.js:15
+[2020/06/29 18:33:54] <LiteSorc> Error in Countess (attack.js line 438): Attack.clear: The Countess not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Countess@countess.js:34, Attack.clear@attack.js:438
+[2020/06/29 18:58:59] <ColdSorc> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/29 20:02:27] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/29 23:49:46] <LiteSorc> Error in Cows (cows.js line 179): Failed to cube leg and tome
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Cows@cows.js:228, @cows.js:179
+[2020/06/30 00:10:16] <ColdSorc> Error in Baal (baal.js line 325): Couldn't find portal.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:325
+[2020/06/30 01:29:42] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 01:48:09] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 02:06:59] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 02:16:28] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 03:20:23] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 03:59:09] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 04:08:05] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 05:53:35] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 06:02:46] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 13:03:53] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232

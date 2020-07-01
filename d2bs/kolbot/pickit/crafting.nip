@@ -82,11 +82,16 @@
 [name] == talrune # # [MaxQuantity] == 4
 
 // FLAWLESS GEMS
-[name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire
-[name] == flawlessskull ||  [name] == flawlessamethyst || [name] == flawlesstopaz || [name] == flawlessdiamond || [name] == flawlesssapphire || [name] == flawlessemerald || [name] == flawlessruby // # # [MaxQuantity] == 9
+// [name] == perfectamethyst || [name] == perfecttopaz || [name] == perfectdiamond || [name] == perfectsapphire //|| [name] == perfectruby
+[name] == perfectruby || [name] == flawlessruby
+// [name] == flawlessskull ||  [name] == flawlessamethyst || [name] == flawlesstopaz || [name] == flawlessdiamond || [name] == flawlesssapphire || [name] == flawlessemerald || [name] == flawlessruby // # # [MaxQuantity] == 9
 
 // Craftin mats
 [name] == jewel
+[name] == amulet && [Quality] == magic  && [Level] >= 86 # # [MaxQuantity] == 8
+[name] == ring && [Quality] == magic && [Level] >= 86 # # [MaxQuantity] == 8
+[name] == VampireboneGloves && [Quality] == magic // blood gloves
+[name] == BrambleMitts && [Quality] == magic // caster gloves
 
 // Essences
 //[Name] == TwistedEssenceOfSuffering # # [MaxQuantity] == 5
@@ -101,4 +106,6 @@
 [name] == superhealingpotion
 
 // runes, just incase
+[name] == ethrune # # [MaxQuantity] == 4
+[name] == nefrune # # [MaxQuantity] == 8
 [name] >= falrune && [name] <= zodrune 
