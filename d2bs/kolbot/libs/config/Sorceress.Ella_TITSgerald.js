@@ -82,7 +82,7 @@ function LoadConfig() {
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = true;
+		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***

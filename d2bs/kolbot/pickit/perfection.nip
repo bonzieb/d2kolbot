@@ -1410,7 +1410,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~SIN~~~~~~~~~~~~~~~~
 [Type] == AssassinClaw && [Quality] == Rare # [assassinskills] >= 2 && [skilllightningsentry] >= 3 && [ias] >= 20
 [Type] == AssassinClaw && [Quality] == Rare # [assassinskills] >= 2 && [skilllightningsentry] >= 3 && [ias] >= 20 && [sockets] >= 2
-[Type] == AssassinClaw && [Quality] == Rare # [trapsskilltab] >= 2 && [skilllightningsentry] >= 3 && [ias] >= 30
+[Type] == AssassinClaw && [Quality] == Rare # [trapsskilltab] >= 2 && [skilllightningsentry] >= 3 //&& [ias] >= 30
 [Type] == AssassinClaw && [Quality] == Rare # [trapsskilltab] >= 2 && [skilllightningsentry] >= 3 && [ias] >= 20 && [sockets] >= 2
 [Type] == AssassinClaw && [Quality] == Rare # [assassinskills] >= 2 && [skillwakeoffire] >= 3 && [ias] >= 20
 [Type] == AssassinClaw && [Quality] == Rare # [assassinskills] >= 2 && [skillwakeoffire] >= 3 && [ias] >= 20 && [sockets] >= 2
@@ -2076,8 +2076,8 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CRAFTAMMIES~~~~~~~~~~~~~~
 
 [Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 28 && ([MaxMana] >= 50 || [MaxHP] >= 40 || [Strength] >= 20 || [Dexterity] >= 12)
-[Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [FireResist]+[LightResist]+[ColdResist] >= 28 && ([MaxMana] >= 50 || [MaxHP] >= 40 || [Strength] >= 25 || [Dexterity] >= 15)
-[Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40
+[Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [FireResist]+[LightResist]+[ColdResist] >= 28 && ([MaxMana] >= 40 || [MaxHP] >= 30 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 32
 
 
 [Type] == amulet && [Quality] == crafted # [FCR] >= 10 && [ItemAddClassSkills] >= 2 && [MaxMana] >= 50 && ([MaxHP] >= 40 || [Strength] >= 25 || [Dexterity] >= 15)
