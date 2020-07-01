@@ -45,3 +45,57 @@ Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader
 [2020/06/30 22:33:09] <ColdSorc> Pickit error! Line # 1277 Entry: [Type] == Gloves && [Quality] == Rare # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1)) (perfection.nip) Error message: eth is not defined Trigger item: Doom Hold Chain Gloves
 [2020/07/01 00:02:24] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 01:05:39] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:05:39] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:05:39] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:11:43] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:11:43] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:11:43] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:14:49] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:14:49] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:14:49] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:16:59] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:16:59] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:16:59] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:24:41] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:24:41] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:24:41] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:25:57] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:25:57] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:25:57] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:29:43] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:29:44] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:29:44] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:24] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:24] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:24] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:37] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:37] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:37:37] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:41:33] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:41:33] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:41:33] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:44:29] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:44:29] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:44:29] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:46:42] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:46:42] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:46:42] <ColdSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:48:32] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:48:32] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:48:32] <Hammy> Invalid cubing entry: Vampirebone
+[2020/07/01 01:51:08] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:51:08] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:51:08] <LiteSorc> Invalid cubing entry: Vampirebone
+[2020/07/01 01:53:52] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 01:54:31] <Hammy> Error in Pindleskin (town.js line 2198): Town.goToTown: Failed use WP
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Pindleskin@pindleskin.js:10, Town.goToTown@town.js:2198
+[2020/07/01 01:59:13] <Hammy> Error in Mephisto (misc.js line 2278): buyItem: No NPC menu open.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Mephisto@mephisto.js:133, Town.doChores@town.js:80, Town.identify@town.js:588, Unit.prototype.buy@prototypes.js:157, Packet.buyItem@misc.js:2278
+[2020/07/01 05:31:28] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Lord De Seis not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.seis@diablo.js:270, @diablo.js:230, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 06:05:58] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 06:20:55] <Hammy> Error in Baal (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:329, Attack.kill@attack.js:232
