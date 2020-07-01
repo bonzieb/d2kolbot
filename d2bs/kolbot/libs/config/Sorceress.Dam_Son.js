@@ -33,7 +33,7 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = false;
+	Scripts.Mausoleum = true;
 		Config.Mausoleum.KillBloodRaven = false;
 		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
@@ -50,7 +50,7 @@ function LoadConfig() {
 	Scripts.BoneAsh = false;
 	Scripts.Countess = false;
 		Config.Countess.KillGhosts = false;
-	Scripts.Andariel = false;
+	Scripts.Andariel = true;
 	Scripts.Cows = false;
 
 	// *** act 2 ***
@@ -58,13 +58,13 @@ function LoadConfig() {
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = false;
+	Scripts.AncientTunnels = true;
 		Config.AncientTunnels.OpenChest = false; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = false;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
-	Scripts.Duriel = false;
+	Scripts.Duriel = true;
 
 	// *** act 3 ***
 	Scripts.Stormtree = false;
@@ -73,7 +73,7 @@ function LoadConfig() {
 	Scripts.Endugu = false;
 	Scripts.Travincal = false;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Mephisto = false;
+	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
 		Config.Mephisto.KillCouncil = false;
 		Config.Mephisto.TakeRedPortal = true;
@@ -93,7 +93,7 @@ function LoadConfig() {
 		Config.Hephasto.ClearType = 0xF; // 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = true;
+	Scripts.Diablo = false;
 		Config.Diablo.WalkClear = false; // Disable teleport while clearing to protect leechers
 		Config.Diablo.Entrance = true; // Start from entrance
 		Config.Diablo.SealWarning = "Leave the seals alone!";
@@ -139,7 +139,7 @@ function LoadConfig() {
 	*/
 
 	Config.Leader = ""; // Leader's ingame character name. Leave blank to try auto-detection (works in AutoBaal, Wakka, MFHelper)
-	Config.QuitList = ["OG_MudBone"]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
+	Config.QuitList = [""]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
 	Config.QuitListMode = 0; // 0 = use character names; 1 = use profile names (all profiles must run on the same computer).
 	Config.QuitListDelay = [1,10]; // Quit the game with random delay in case of using Config.QuitList. Example: Config.QuitListDelay = [1, 10]; will exit with random delay between 1 and 10 seconds.
 
@@ -295,6 +295,7 @@ function LoadConfig() {
 
 	// Pickit config. Default folder is kolbot/pickit.
 	Config.PickitFiles.push("perfection.nip");
+	Config.PickitFiles.push("grocerylist.nip");
 	Config.PickRange = 160; // Pick radius
 	Config.FastPick = false; // Check and pick items between attacks
 	Config.ManualPlayPick = false; // If set to true and D2BotMap entry script is used, will enable picking in manual play.
@@ -358,15 +359,15 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = false; // Set to true to enable cubing.
+	Config.Cubing = true; // Set to true to enable cubing.
 
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-	//Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+	Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
 	//Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
 	//Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
 	//Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-	//Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+	Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
 	//Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
 	//Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
@@ -528,18 +529,18 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Clear while traveling during bot scripts
 	// You have two methods to configure clearing. First is simply a spectype to always clear, in any area, with a default range of 30
 	// The second method allows you to specify the areas in which to clear while traveling, a range, and a spectype. If area is excluded from this method,
 	// all areas will be cleared using the specified range and spectype
 	// Config.ClearPath = 0; // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	// Config.ClearPath = {
-	// 	// Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
-	// 	Range: 30, // Range to clear while traveling
-	// 	Spectype: 0xF, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	// };
+	Config.ClearPath = {
+		// Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
+		Range: 10, // Range to clear while traveling
+		Spectype: 0xF, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+	};
 
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear

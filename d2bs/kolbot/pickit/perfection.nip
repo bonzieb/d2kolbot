@@ -21,7 +21,7 @@
 [Name] == KrakenShell && [Quality] == unique // Leviathan
 [Name] == SacredArmor && [Quality] == unique // Tyrael's Might OR Temp's might
 //[Name] == SharktoothArmor && [Quality] == unique // Sharktooth slayer
-[Name] == ChaosArmor && [Quality] == unique // && [Flag] == Ethereal // Black hades
+[Name] == ChaosArmor && [Quality] == unique && [Flag] == Ethereal // Black hades
 
 
 // ##### Shields #######################
@@ -266,13 +266,15 @@
 [Type] == Ring && [Quality] == rare # [MaxMana] >= 90 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60
  
 // ##### AMULETS ####################################################################################
- 
+
+[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && [strength] >= 8 && [FireResist]+[ColdResist]+[LightResist]+[PoisonResist] >= 30
+[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && [strength] >= 10 && [Dexterity]+[MaxHp]+[MaxMana] >= 40
 [Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && ([Strength]+[Maxhp]+[MaxMana] >= 60 || [Dexterity]+[MaxHp]+[MaxMana] >= 60 || [Strength]+[Dexterity]+[Maxhp] >= 50 || [Strength]+[Dexterity]+[MaxMana] >= 55)
-[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MaxMana] >= 70 && [Strength]+[Dexterity] >= 35
-[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && [MaxMana] >= 70 && [MaxHP] >= 40 && ([Strength] >= 20 || [Dexterity] >= 10)
-[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 60 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
-[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && [MaxMana] >= 80 && [Strength]+[Dexterity] >= 40
-[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && [MaxMana] >= 80 && [MaxHP] >= 50 && ([Strength] >= 25 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [MaxMana] >= 70 && [Strength]+[Dexterity] >= 35
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [MaxMana] >= 70 && [MaxHP] >= 40 && ([Strength] >= 20 || [Dexterity] >= 10)
+[Type] == Amulet && [Quality] == rare # [Itemaddclassskills] == 2 && [FCR] == 10 && [ColdResist]+[LightResist]+[FireResist]+[PoisonResist] >= 40 && ([MaxHp] >= 30 || [MaxMana] >= 60 || [Strength] >= 15 || [Dexterity] >= 15)
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [MaxMana] >= 80 && [Strength]+[Dexterity] >= 40
+[Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FCR] == 10 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 40 && [MaxMana] >= 80 && [MaxHP] >= 50 && ([Strength] >= 25 || [Dexterity] >= 15)
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && ([LifeLeech]+[ManaLeech] >= 11 || [Strength]+[Dexterity] >= 35)
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 60 && ([LifeLeech] >= 5 || [ManaLeech] >= 7) && ([Strength] >= 20 || [Dexterity] >= 10)
 [Type] == Amulet && [Quality] == rare # [ItemAddClassSkills] == 2 && [FireResist]+[LightResist]+[ColdResist]+[PoisonResist] >= 70 && ([LifeLeech]+[ManaLeech] >= 13 || [Strength]+[Dexterity] >= 40)
@@ -302,18 +304,18 @@
 //Rare Jewels
 
 // ##### Rare jewels ##################
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 6  && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 4  && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 6 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 6 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 6 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >=7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 4 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 4 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 4 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >=7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [maxdamage] >= 14 && [mindamage] >= 6
 
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [mindamage] >=6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [mindamage] >=6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [plusdefense] >= 40 && [maxdamage] >=6 && [itemreqpercent] >= 15
 
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 6 && [fhr] >= 7 && [strength] >= 7
@@ -322,159 +324,159 @@
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 6 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 6 && [dexterity] >= 7 && [itemreqpercent] >= 15
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 14 && [maxdamage] >= 6
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [mindamage] >= 14 && [maxdamage] >= 4
 
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 50 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 50 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 50 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 50 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 50 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [attackrate] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 15)
 
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [poisonresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [coldresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [fireresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [enhanceddamage] >= 30 && [itemdamagetomana] >= 10 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 //Max damage jewels
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [plusdefense] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [plusdefense] >= 40 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [mindamage] >= 6 && [dexterity] >= 7 && [itemreqpercent] >= 15
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 15 && [mindamage] >= 15
 
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 50 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 50 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 50 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 50 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 50 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [attackrate] >= 50 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [attackrate] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [attackrate] >= 40 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [dexterity] >= 7 && [itemreqpercent] >= 15
 [Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [fireresist] >= 16 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [fireresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [fireresist] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [coldresist] >= 16 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [coldresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [coldresist] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 16 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 16 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 16 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 16 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 16 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [lightresist] >= 16 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 12 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 12 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 12 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 12 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 9 && [lightresist] >= 12 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [maxdamage] >= 12 && [lightresist] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [mindamage] >= 6 || [itemreqpercent] >= 15)
 
 //plus defense jewels
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 6 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 14 && [maxdamage] >= 6
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 6 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 14 && [maxdamage] >= 4
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 6 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 6 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 6 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [mindamage] >= 12 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 4 || [itemreqpercent] >= 15)
 
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 50 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 50 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 50 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 50 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 50 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [attackrate] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [plusdefense] >= 40 && [itemdamagetomana] >= 10 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 //plus min jewels
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 50 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 50 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 50 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 50 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 50 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [attackrate] >= 50 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [attackrate] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [attackrate] >= 40 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 4 || [itemreqpercent] >= 15)
 
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [itemdamagetomana] >= 10 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [itemdamagetomana] >= 10 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [itemdamagetomana] >= 10 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 4 || [itemreqpercent] >= 15)
 
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
 [Name] == jewel && [Quality] == rare # [mindamage] >= 6 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [dexterity] >= 7 && [itemreqpercent] >= 15
-[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 6 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [mindamage] >= 12 && [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [maxdamage] >= 4 || [itemreqpercent] >= 15)
 
 //all resist jewels
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 50 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 50 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 50 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 50 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 50 && [dexterity] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 40 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 40 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 40 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 40 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [attackrate] >= 40 && [dexterity] >= 7 && [itemreqpercent] >= 15
 
 [Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [maxdamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 6)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [maxdamage] >= 4 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [mindamage] >= 6 && ([fhr] >= 7 || [strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [maxdamage] >= 4)
 [Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
 [Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [itemdamagetomana] >= 10 && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7)
 
@@ -486,26 +488,26 @@
 [Name] == jewel && [Quality] == rare # [fireresist] >= 9 && [lightresist] >= 9 && [coldresist] >= 9 && [poisonresist] >= 9 && [maxmana] >= 11 && [energy] >= 7 && [itemreqpercent] >= 15
 
 // high dual resist jewels
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [fireresist] >= 16 && ([lightresist] >= 16 || [coldresist] >= 16) && [energy] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [fireresist] >= 12 && ([lightresist] >= 12 || [coldresist] >= 12) && [energy] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [lightresist] >= 16 && ([fireresist] >= 16 || [coldresist] >= 16) && [energy] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [lightresist] >= 12 && ([fireresist] >= 12 || [coldresist] >= 12) && [energy] >= 7 && [itemreqpercent] >= 15
 
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [maxmana] >= 11 && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
-[Name] == jewel && [Quality] == rare # [coldresist] >= 16 && ([fireresist] >= 16 || [lightresist] >= 16) && [itemdamagetomana] >= 10 && [maxmana] >= 11 && [energy] >= 7 && [itemreqpercent] >= 15
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [maxhp] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [hpregen] >= 4 && ([itemreqpercent] >= 15 || [maxhp] >= 7 || [energy] >= 7)
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [strength] >= 7 && ([dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4) 
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [maxmana] >= 11 && [dexterity] >= 7 && ([itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
+[Name] == jewel && [Quality] == rare # [coldresist] >= 12 && ([fireresist] >= 12 || [lightresist] >= 12) && [itemdamagetomana] >= 10 && [maxmana] >= 11 && [energy] >= 7 && [itemreqpercent] >= 15
 
 
 [Name] == jewel && [Quality] == rare # [maxmana] >= 11 && [itemdamagetomana] >= 10 && [fhr] >= 7 && ([strength] >= 7 || [dexterity] >= 7 || [itemreqpercent] >= 15 || [energy] >= 7 || [hpregen] >= 4)
@@ -764,6 +766,7 @@
 
 // +2 Class skill circlet
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20
+[Type] == Circlet && [Quality] == Rare # [amazonskills] >= 2  && [frw] >= 20 && [sockets] >= 2
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && ([sockets] >= 2 || [strength] >= 10)
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [strength] >= 10 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [strength] >= 10 && [maxmana] >= 60
@@ -1266,14 +1269,11 @@
 
 //~~~~~~~~~~~~~~~~~ GLOVES
 
-// Crafting base
-[name] == VampireboneGloves && [Quality] == magic # # [MaxQuantity] == 2// blood gloves
-[name] == BrambleMitts && [Quality] == magic # # [MaxQuantity] == 2// caster gloves
 
 // LLD zon gloves
-[type] == gloves && [quality] == magic # [itemaddpassiveandmagicskilltab] == 3 && [itemlevelreq] <= 30 && [ias] == 20
+[type] == gloves && [quality] == magic # [itemaddpassiveandmagicskilltab] == 3 && [itemlevelreq] <= 30 && [ias] >= 20
 // zon gloves
-[type] == gloves && [quality] == magic # ([itemaddjavelinandspearskilltab] == 3 && [itemaddbowandcrossbowskilltab] == 3) && [ias] == 20
+[type] == gloves && [quality] == magic # ([itemaddjavelinandspearskilltab] == 3 && [itemaddbowandcrossbowskilltab] == 3) && [ias] >= 20
 
 [Type] == Gloves && [Quality] == Rare # [ias] >= 20 && ([itemaddjavelinandspearskilltab] >= 2 || [itemaddbowandcrossbowskilltab] >= 2 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 2))
 // rare or magic gloves with jav skills and 10+ ias and (manalife leech OR crushing blow OR str+dex OR knockback) and (non eth or eth w/ replenish dur)
@@ -1757,10 +1757,10 @@
 // White Armors
 
 [Name] == Mageplate && [Quality] == Superior && [Flag] != Ethereal # [sockets] == 3 && [enhanceddefense] >= 5
-[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 480 // && [enhanceddefense] >= 5
-[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 450 // && [enhanceddefense] >= 5
-[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 450 // && [enhanceddefense] >= 5
-[Name] == wyrmhide && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [defense] >= 468 // && [enhanceddefense] >= 5
+[Name] == Archonplate && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
+[Name] == Wirefleece && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
+[Name] == Duskshroud && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
+[Name] == wyrmhide && [Quality] <= Superior && [Flag] != Ethereal # ([sockets] == 0 || [sockets] == 4 || [sockets] == 3) && [enhanceddefense] >= 5
 
 // Buggable armour
 [Name] == Boneweave && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [defense] >= 650
@@ -1773,7 +1773,8 @@
 [Name] == Sacredarmor && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 0 && [defense] >= 800
 
 // White shields
-[name] == monarch && [quality] <= Superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [defense] >= 148
+[name] == monarch && [quality] <= Superior && [flag] != ethereal # ([sockets] == 0 || [sockets] == 4) && [enhanceddefense] >= 15
+[name] == monarch && [quality] <= Superior && [flag] != ethereal # [sockets] == 4 && [enhanceddefense] >= 10
 //[name] == trollnest && [quality] <= superior && [flag] != ethereal #  ([itemmaxdurabilitypercent] == 0 || [itemmaxdurabilitypercent] == 15) && ([sockets] != 1 && [sockets] != 2)
 [name] == monarch && [quality] == normal && [flag] == ethereal # [sockets] == 0 && [defense] >= 219 || [sockets] == 4 && [defense] == 333
 
@@ -2318,9 +2319,12 @@
 // -- keys 
 // [name] == keyofhate # # [maxquantity] == 6
 // [name] == keyofterror # # [maxquantity] == 6
-[name] == keyofdestruction # # [maxquantity] == 6
+[name] == keyofdestruction # # [maxquantity] == 9
 
-//-----runes-----
+
+//==========================================
+//===========        GEMS n RUNES       ===========
+//==========================================
 
 [name] == greatermanapotion
 [name] == supermanapotion
@@ -2334,14 +2338,30 @@
 //[name] == flawlessemerald
 //[name] == flawlessdiamond # # [maxquantity] == 3
 
-[name] == thulrune// # # [MaxQuantity] == 4
-[name] == amnrune// # # [MaxQuantity] == 4
+// [name] == thulrune// # # [MaxQuantity] == 4
+// [name] == amnrune// # # [MaxQuantity] == 4
+
 // [name] == ralrune # # [MaxQuantity] == 4
 // [name] == helrune # # [MaxQuantity] == 8
 
-[name] == lumrune # # [MaxQuantity] == 4
+// [name] == lumrune # # [MaxQuantity] == 4
 //[name] == iorune # # [MaxQuantity] == 4
 [name] >= falrune && [name] <= zodrune    
+
+//==========================================
+//===========        CRAFTING       ===========
+//==========================================
+
+// Blood crafting
+[name] == flawlessruby # # [MaxQuantity] == 2
+[name] == nefrune  # # [MaxQuantity] == 2
+[name] == VampireboneGloves && [Quality] == magic # # [MaxQuantity] == 2// blood gloves
+
+// Caster crafting
+[name] == flawlessamethyst # # [MaxQuantity] == 2
+[name] == ortrune # # [MaxQuantity] == 2
+[name] == BrambleMitts && [Quality] == magic # # [MaxQuantity] == 2// caster gloves
+
 
 
 // Newbrict CHARMS

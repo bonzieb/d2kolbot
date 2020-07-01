@@ -33,7 +33,7 @@ function LoadConfig() {
 	// *** act 1 ***
 	Scripts.Corpsefire = false;
 		Config.Corpsefire.ClearDen = false;
-	Scripts.Mausoleum = true;
+	Scripts.Mausoleum = false;
 		Config.Mausoleum.KillBloodRaven = false;
 		Config.Mausoleum.ClearCrypt = false;
 	Scripts.Rakanishu = false;
@@ -50,7 +50,7 @@ function LoadConfig() {
 	Scripts.BoneAsh = false;
 	Scripts.Countess = true;
 		Config.Countess.KillGhosts = false;
-	Scripts.Andariel = true;
+	Scripts.Andariel = false;
 	Scripts.Cows = false;
 
 	// *** act 2 ***
@@ -58,13 +58,13 @@ function LoadConfig() {
 	Scripts.Coldworm = false;
 		Config.Coldworm.KillBeetleburst = false;
 		Config.Coldworm.ClearMaggotLair = false; // Clear all 3 levels
-	Scripts.AncientTunnels = true;
+	Scripts.AncientTunnels = false;
 		Config.AncientTunnels.OpenChest = true; // Open special chest in Lost City
 		Config.AncientTunnels.KillDarkElder = false;
 	Scripts.Summoner = false;
 		Config.Summoner.FireEye = false;
 	Scripts.Tombs = false;
-	Scripts.Duriel = true;
+	Scripts.Duriel = false;
 
 	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
 		// Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
@@ -82,7 +82,7 @@ function LoadConfig() {
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
 	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = false;
+		Config.Mephisto.KillCouncil = true;
 		Config.Mephisto.TakeRedPortal = true;
 
 	// *** act 4 ***
@@ -93,7 +93,7 @@ function LoadConfig() {
 		Config.Hephasto.ClearType = 0xF; // 0xF = skip normal, 0x7 = champions/bosses, 0 = all
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = false;
+	Scripts.Diablo = true;
 		Config.Diablo.WalkClear = false; // Disable teleport while clearing to protect leechers
 		Config.Diablo.Entrance = true; // Start from entrance
 		Config.Diablo.SealWarning = "Leave the seals alone!";
@@ -104,7 +104,7 @@ function LoadConfig() {
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
 
 	// *** act 5 ***
-	Scripts.Pindleskin = true;
+	Scripts.Pindleskin = false;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = false;
 		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -254,7 +254,7 @@ function LoadConfig() {
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
 	Config.UseMercRejuv = 10; // Give a rejuvenation potion to your merc if his/her life is under designated percent.
 	Config.HPBuffer = 0; // Number of healing potions to keep in inventory.
-	Config.MPBuffer = 0; // Number of mana potions to keep in inventory.
+	Config.MPBuffer = 4; // Number of mana potions to keep in inventory.
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
@@ -359,15 +359,15 @@ function LoadConfig() {
 	/* Cubing config. All recipe names are available in Templates/Cubing.txt. For item names/classids check NTItemAlias.dbl
 	 * The format is Config.Recipes.push([recipe_name, item_name_or_classid, etherealness]). Etherealness is optional and only applies to some recipes.
 	 */
-	Config.Cubing = false; // Set to true to enable cubing.
+	Config.Cubing = true; // Set to true to enable cubing.
 
 	// Ingredients for the following recipes will be auto-picked, for classids check libs/NTItemAlias.dbl
 
-	// Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
+	Config.Recipes.push([Recipe.Gem, "Flawless Amethyst"]); // Make Perfect Amethyst
 	// Config.Recipes.push([Recipe.Gem, "Flawless Topaz"]); // Make Perfect Topaz
 	// Config.Recipes.push([Recipe.Gem, "Flawless Sapphire"]); // Make Perfect Sapphire
 	// Config.Recipes.push([Recipe.Gem, "Flawless Emerald"]); // Make Perfect Emerald
-	// Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
+	Config.Recipes.push([Recipe.Gem, "Flawless Ruby"]); // Make Perfect Ruby
 	// Config.Recipes.push([Recipe.Gem, "Flawless Diamond"]); // Make Perfect Diamond
 	// Config.Recipes.push([Recipe.Gem, "Flawless Skull"]); // Make Perfect Skull
 
@@ -529,7 +529,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Clear while traveling during bot scripts
 	// You have two methods to configure clearing. First is simply a spectype to always clear, in any area, with a default range of 30

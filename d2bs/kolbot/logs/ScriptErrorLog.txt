@@ -32,3 +32,16 @@ Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
 [2020/06/30 13:03:53] <Hammy> Error in DiabloHelper (attack.js line 232): Attack.kill: Target not found
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, DiabloHelper@diablohelper.js:564, Attack.kill@attack.js:232
+[2020/06/30 21:55:29] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/06/30 22:07:18] <Hammy> Error in Diablo (diablo.js line 200): Failed to open Vizier seals.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:504, @diablo.js:200
+[2020/06/30 22:07:53] <Hammy> Error in Pindleskin (pindleskin.js line 49): Failed to move to Halls of Vaught
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Pindleskin@pindleskin.js:49
+[2020/06/30 22:08:06] <Hammy> Error in Baal (baal.js line 208): Failed to move to Throne of Destruction.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:208
+[2020/06/30 22:24:34] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/06/30 22:33:09] <ColdSorc> Pickit error! Line # 1277 Entry: [Type] == Gloves && [Quality] == Rare # [ias] >= 10 && ([itemaddjavelinandspearskilltab] >= 1 || [itemaddbowandcrossbowskilltab] >= 1 || ([itemlevelreq] <= 30 && [itemaddpassiveandmagicskilltab] >= 1)) && ([lifeleech] + [manaleech] >= 5 || [itemcrushingblow] >= 5 || [strength]+[dexterity] >= 10 || [itemknockback] >= 1) && (eth == 0 || (eth >= 1 && [itemreplenishdurability] >= 1)) (perfection.nip) Error message: eth is not defined Trigger item: Doom Hold Chain Gloves
+[2020/07/01 00:02:24] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438

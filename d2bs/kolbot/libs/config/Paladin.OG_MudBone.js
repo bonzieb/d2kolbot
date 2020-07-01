@@ -68,12 +68,19 @@ function LoadConfig() {
 	Scripts.KurastTemples = false;
 	Scripts.Icehawk = false;
 	Scripts.Endugu = false;
-	Scripts.Travincal = false;
+	Scripts.Travincal = true;
 		Config.Travincal.PortalLeech = false; // Set to true to open a portal for leechers.
-	Scripts.Mephisto = false;
+	Scripts.Mephisto = true;
 		Config.Mephisto.MoatTrick = false;
-		Config.Mephisto.KillCouncil = false;
+		Config.Mephisto.KillCouncil = true;
 		Config.Mephisto.TakeRedPortal = true;
+
+	Scripts.ChestMania = true; // Open chests in configured areas. See sdk/areas.txt
+		// Config.ChestMania.Act1 = [13, 14, 15, 16, 18, 19]; // List of act 1 areas to open chests in
+		// Config.ChestMania.Act2 = [55, 59, 65, 66, 67, 68, 69, 70, 71, 72]; // List of act 2 areas to open chests in
+		Config.ChestMania.Act3 = [79];//, 80, 81, 92, 93, 84, 85, 90]; // List of act 3 areas to open chests in
+		// Config.ChestMania.Act4 = [107]; // List of act 4 areas to open chests in
+		// Config.ChestMania.Act5 = [115, 116, 119, 125, 126, 127]; // List of act 5 areas to open chests in
 
 	// *** act 4 ***
 	Scripts.OuterSteppes = false;
@@ -81,7 +88,7 @@ function LoadConfig() {
 	Scripts.Hephasto = false;
 	Scripts.Vizier = false; // Intended for classic sorc, kills Vizier only.
 	Scripts.FastDiablo = false;
-	Scripts.Diablo = false;
+	Scripts.Diablo = true;
 		Config.Diablo.WalkClear = false; // Disable teleport while clearing to protect leechers
 		Config.Diablo.Entrance = true; // Start from entrance
 		Config.Diablo.SealWarning = "Leave the seals alone!";
@@ -91,7 +98,7 @@ function LoadConfig() {
 	Scripts.SealLeader = false; // Clear a safe spot around seals and invite leechers in. Leechers should run SealLeecher script. Don't run with Diablo or FastDiablo.
 
 	// *** act 5 ***
-	Scripts.Pindleskin = false;
+	Scripts.Pindleskin = true;
 		Config.Pindleskin.UseWaypoint = false;
 		Config.Pindleskin.KillNihlathak = true;
 		Config.Pindleskin.ViperQuit = false; // End script if Tomb Vipers are found.
@@ -112,7 +119,7 @@ function LoadConfig() {
 	Scripts.Snapchip = false;
 		Config.Snapchip.ClearIcyCellar = true;
 	Scripts.Worldstone = false;
-	Scripts.Baal = false;
+	Scripts.Baal = true;
 		Config.Baal.HotTPMessage = "Hot TP!";
 		Config.Baal.SafeTPMessage = "Safe TP!";
 		Config.Baal.BaalMessage = "Baal!";
@@ -125,8 +132,8 @@ function LoadConfig() {
 	* Don't use more scripts of the same type! (Run AutoBaal OR BaalHelper, not both)
 	*/
 
-	Config.Leader = "Dam_Son"; // Leader's ingame character name. Leave blank to try auto-detection (works in AutoBaal, Wakka, MFHelper)
-	Config.QuitList = ["Dam_Son"]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
+	Config.Leader = ""; // Leader's ingame character name. Leave blank to try auto-detection (works in AutoBaal, Wakka, MFHelper)
+	Config.QuitList = [""]; // List of character names to quit with. Example: Config.QuitList = ["MySorc", "MyDin"];
 	Config.QuitListMode = 0; // 0 = use character names; 1 = use profile names (all profiles must run on the same computer).
 	Config.QuitListDelay = [1, 10]; // Quit the game with random delay in case of using Config.QuitList. Example: Config.QuitListDelay = [1, 10]; will exit with random delay between 1 and 10 seconds.
 
@@ -136,7 +143,7 @@ function LoadConfig() {
 	Scripts.MFHelper = false; // Run the same MF run as the MFLeader. Leader must have Config.MFLeader = true
 	Scripts.Wakka = false; // Walking chaos leecher with auto leader assignment, stays at safe distance from the leader
 	Scripts.SealLeecher = false; // Enter safe portals to Chaos. Leader should run SealLeader.
-	Scripts.DiabloHelper = true; // Chaos helper, kills monsters and doesn't open seals on its own.
+	Scripts.DiabloHelper = false; // Chaos helper, kills monsters and doesn't open seals on its own.
 		Config.DiabloHelper.Wait = 720; // Seconds to wait for a runner to be in Chaos. If Config.Leader is set, it will wait only for the leader.
 		Config.DiabloHelper.Entrance = true; // Start from entrance. Set to false to start from star.
 		Config.DiabloHelper.SkipTP = false; // Don't wait for town portal and directly head to chaos. It will clear monsters around chaos entrance and wait for the runner.
@@ -145,7 +152,7 @@ function LoadConfig() {
 		Config.AutoBaal.FindShrine = false; // false = disabled, 1 = search after hot tp message, 2 = search as soon as leader is found
 		Config.AutoBaal.LeechSpot = [15115, 5050]; // X, Y coords of Throne Room leech spot
 		Config.AutoBaal.LongRangeSupport = false; // Cast long distance skills from a safe spot
-	Scripts.BaalHelper = true;
+	Scripts.BaalHelper = false;
 		Config.BaalHelper.Wait = 360; // Seconds to wait for a runner to be in Throne
 		Config.BaalHelper.KillNihlathak = false; // Kill Nihlathak before going to Throne
 		Config.BaalHelper.FastChaos = false; // Kill Diablo before going to Throne
@@ -256,9 +263,9 @@ function LoadConfig() {
 	 * 1 = item is unlocked and will be dropped, stashed or sold.
 	 * If you don't change the default values, the bot won't stash items.
 	 */
-	Config.Inventory[0] = [1,1,1,1,0,0,0,0,0,0];
-	Config.Inventory[1] = [1,1,1,1,0,0,0,0,0,0];
-	Config.Inventory[2] = [1,1,1,1,0,0,0,0,0,0];
+	Config.Inventory[0] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[1] = [1,1,1,1,1,1,0,0,0,0];
+	Config.Inventory[2] = [1,1,1,1,1,1,0,0,0,0];
 	Config.Inventory[3] = [1,1,1,1,1,0,0,0,0,0];
 
 	Config.StashGold = 100000; // Minimum amount of gold to stash.
@@ -281,8 +288,8 @@ function LoadConfig() {
 	Config.MinColumn[3] = 0;
 
 	// Pickit config. Default folder is kolbot/pickit.
-	Config.PickitFiles.push("crafting.nip");
-	Config.PickRange = 80; // Pick radius
+	Config.PickitFiles.push("perfection.nip");
+	Config.PickRange = 160; // Pick radius
 	Config.FastPick = false; // Check and pick items between attacks
 
 	/* Advanced automule settings
@@ -305,7 +312,7 @@ function LoadConfig() {
 
 	// Additional item info log settings. All info goes to \logs\ItemLog.txt
 	Config.ItemInfo = true; // Log stashed, skipped (due to no space) or sold items.
-	Config.ItemInfoQuality = [5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
+	Config.ItemInfoQuality = [1,2,3,4,5,6,7,8]; // The quality of sold items to log. See NTItemAlias.dbl for values. Example: Config.ItemInfoQuality = [6, 7, 8];
 
 	// Item identification settings
 	Config.CainID.Enable = false; // Identify items at Cain
@@ -414,7 +421,7 @@ function LoadConfig() {
 	Config.LocalChat.Toggle = false; // optional, set to KEY value to toggle through modes 0, 1, 2
 	Config.LocalChat.Mode = 0; // 0 = disabled, 1 = chat from 'say' (recommended), 2 = all chat (for manual play)
 	// If Config.Leader is set, the bot will only accept invites from leader. If Config.PublicMode is not 0, Baal and Diablo script will open Town Portals.
-	Config.PublicMode = 2; // 1 = invite and accept, 2 = accept only, 3 = invite only, 0 = disable
+	Config.PublicMode = 1; // 1 = invite and accept, 2 = accept only, 3 = invite only, 0 = disable
 	// Party message settings. Each setting represents an array of messages that will be randomly chosen.
 	// $name, $level, $class and $killer are replaced by the player's name, level, class and killer
 	Config.Greetings = []; // Example: ["Hello, $name (level $level $class)"]
@@ -505,6 +512,11 @@ function LoadConfig() {
 
 	Config.BossPriority = false; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+	Config.ClearPath = {
+		// Areas: [74], // Specific areas to clear while traveling in. Comment out to clear in all areas
+		Range: 10, // Range to clear while traveling
+		Spectype: 0xF, // Monster spectype to kill while traveling. 0xF = skip normal, 0x7 = champions/bosses, 0 = all
+	};
 
 	// Wereform setup. Make sure you read Templates/Attacks.txt for attack skill format.
 	Config.Wereform = false; // 0 / false - don't shapeshift, 1 / "Werewolf" - change to werewolf, 2 / "Werebear" - change to werebear
