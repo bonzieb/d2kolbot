@@ -7,7 +7,7 @@
 [Name] == BoneVisage && [Quality] == unique // Giant Skull
 [Name] == SpiredHelm && [Quality] == unique // Nightwing's Veil
 [Name] == Corona && [Quality] == unique // Crown of ages
-[Name] == GrandCrown && [quality] == unique // Crown of theives
+// [Name] == GrandCrown && [quality] == unique // Crown of theives
 
 // ##### Armor #########################
 [Name] == SerpentskinArmor && [Quality] == unique && [Flag] != ethereal # [fireresist] == 35 // Skin of the Vipermagi
@@ -1727,7 +1727,7 @@
 
 
 [Name] == Jewel && [Quality] == Magic # [enhanceddamage] >= 40 && [maxdamage] >= 15
-[Name] == Jewel && [Quality] == Magic # [enhanceddamage] >= 35 && [ias] >= 15
+[Name] == Jewel && [Quality] == Magic # [enhanceddamage] >= 40 && [ias] >= 15
 [Name] == Jewel && [Quality] == Magic # [enhanceddamage] >= 40 && [itemreqpercent] >= 15
 [Name] == Jewel && [Quality] == Magic # [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [strength] >= 9
 [Name] == Jewel && [Quality] == Magic # [fireresist] >= 10 && [coldresist] >= 10 && [lightresist] >= 10 && [poisonresist] >= 10 && [dexterity] >= 9
@@ -1781,17 +1781,17 @@
 
 // White Weapons
 
-[Name] == Berserkeraxe && [Quality] == Superior # [sockets] == 5
-[Name] == Berserkeraxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 6
-[Name] == Phaseblade && [Quality] == Superior # [sockets] == 5
-[Name] == Phaseblade && [Quality] == Superior # [sockets] == 6
+[Name] == Berserkeraxe && [Quality] == Superior # [sockets] == 5 && [enhanceddamage] == 15
+[Name] == Berserkeraxe && [Quality] == Superior && [Flag] == Ethereal # ([sockets] == 6 || [sockets] == 0) && [enhanceddamage] == 15
+[Name] == Phaseblade && [Quality] == Superior # [sockets] == 5 && [enhanceddamage] == 15
+[Name] == Phaseblade && [Quality] == Superior # [sockets] == 6 && [enhanceddamage] == 15
 
 // White
 //[name] == smallcrescent && [quality] <= Superior && [flag] == ethereal #  ([sockets] == 0 || [sockets] == 4)
 [name] == berserkeraxe && [quality] <= superior && [flag] != ethereal #  ([sockets] == 3 || [sockets] == 4 || [sockets] == 5)
 [name] == berserkeraxe && [quality] <= superior && [flag] == ethereal #  ([sockets] == 0 || [sockets] == 5 || [sockets] == 6)
 [name] == warspike && [quality] <= superior && [flag] == ethereal #  [tohit] == 3 && [sockets] == 5
-[name] == gloriousaxe && [quality] <= superior && [flag] == ethereal # [sockets] == 5
+[name] == gloriousaxe && [quality] <= superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] == 15
 [name] == decapitator && [quality] == superior && [flag] == ethereal # [sockets] == 5 && [enhanceddamage] == 15
 
 // Insight/Infinity Merc Weapons
@@ -1799,16 +1799,16 @@
 // Non superior eth axes
 // [Name] == Colossusvoulge && [Quality] == Normal && [Flag] == Ethereal # [sockets] == 4
 // [Name] == Crypticaxe && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
-[Name] == Thresher && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
-[Name] == Giantthresher && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
+// [Name] == Thresher && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
+// [Name] == Giantthresher && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
 // [Name] == Greatpoleaxe && [Quality] == Normal && [Flag] == Ethereal # ([sockets] == 0 || [sockets] == 4)
 
 // Superior, socketed eth axes
-[Name] == Colossusvoulge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4
-[Name] == Crypticaxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4
-[Name] == Thresher && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4
-[Name] == Giantthresher && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4
-[Name] == Greatpoleaxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4
+[Name] == Colossusvoulge && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 15
+[Name] == Crypticaxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 15
+[Name] == Thresher && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 10
+[Name] == Giantthresher && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 10
+[Name] == Greatpoleaxe && [Quality] == Superior && [Flag] == Ethereal # [sockets] == 4 && [enhanceddamage] >= 10
 
 // CTA/HOTO
 
@@ -1817,8 +1817,8 @@
 
 // Faith Bows
 
-[Name] == Matriarchalbow && [Quality] <= Superior # [sockets] == 4 && [bowandcrossbowskilltab] >= 3
-[Name] == Grandmatronbow && [Quality] <= Superior # [sockets] == 4 && [bowandcrossbowskilltab] >= 3
+[Name] == Matriarchalbow && [Quality] == Superior # [sockets] == 4 && [bowandcrossbowskilltab] >= 3
+[Name] == Grandmatronbow && [Quality] == Superior # [sockets] == 4 && [bowandcrossbowskilltab] >= 3
 
 // Paladin Scepter
 
@@ -2387,12 +2387,12 @@
 //==========================================
 
 // Blood crafting
-[name] == flawlessruby
+// [name] == flawlessruby
 // [name] == nefrune  # # [MaxQuantity] == 2
 // [name] == VampireboneGloves && [Quality] == magic # # [MaxQuantity] == 2// blood gloves
 
 // Caster crafting
-[name] == flawlessamethyst
+// [name] == flawlessamethyst
 // [name] == ortrune # # [MaxQuantity] == 2
 // [name] == BrambleMitts && [Quality] == magic # # [MaxQuantity] == 2// caster gloves
 
@@ -2429,7 +2429,7 @@
 [name] == smallcharm && [quality] == magic # ([tohit] >= 36 || [maxdamage] == 3 || [maxmana] >= 17 || [fireresist] >= 11 || [coldresist] >= 11 || [lightresist] >= 11 || [fireresist] == 5 && [lightresist] == 5) && ([maxhp] >= 20 || [fhr] == 5 || [frw] == 3)
 
 // MF SC
-[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 6
+[name] == smallcharm && [quality] == magic # [itemmagicbonus] >=7
 
 // MF +RES
 [name] == smallcharm && [quality] == magic # [fireresist] >= 11 || [coldresist] >= 11 || [lightresist] >= 11 || [fireresist]+[lightresist]+[coldresist] >= 12

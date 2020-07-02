@@ -113,3 +113,35 @@ Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:460
 [2020/07/01 20:34:40] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/01 22:14:25] <Hammy> Error in Diablo (diablo.js line 243): Failed to open Infector seals.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:243
+[2020/07/01 22:14:55] <Hammy> Error in Pindleskin (pindleskin.js line 49): Failed to move to Halls of Vaught
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Pindleskin@pindleskin.js:49
+[2020/07/01 22:15:12] <Hammy> Error in Baal (baal.js line 208): Failed to move to Throne of Destruction.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:208
+[2020/07/02 00:52:36] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/02 01:06:06] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/02 01:31:01] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/02 02:28:03] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Lord De Seis not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.seis@diablo.js:270, @diablo.js:230, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/02 03:15:25] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Grand Vizier of Chaos not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.vizier@diablo.js:269, @diablo.js:209, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/02 04:21:25] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/02 04:30:42] <ColdSorc> Error in Baal (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:329, Attack.kill@attack.js:232
+[2020/07/02 05:12:04] <Hammy> Error in Diablo (diablo.js line 460): Failed to move to Chaos Sanctuary
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:460
+[2020/07/02 05:12:35] <Hammy> Error in Pindleskin (pindleskin.js line 49): Failed to move to Halls of Vaught
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Pindleskin@pindleskin.js:49
+[2020/07/02 05:12:49] <Hammy> Error in Baal (baal.js line 208): Failed to move to Throne of Destruction.
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:208
+[2020/07/02 06:35:03] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
+[2020/07/02 07:05:33] <ColdSorc> Error in Baal (attack.js line 232): Attack.kill: Target not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:329, Attack.kill@attack.js:232
+[2020/07/02 07:15:04] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
