@@ -145,8 +145,8 @@
 [Name] == DimensionalShard && [Quality] == unique // Death's Fathom
 
 // ##### Circlets ######################
-[Name] == Tiara && [Quality] == unique && [Flag] != ethereal // Kira's Guardian
-[Name] == Diadem && [Quality] == unique // Griffon's Eye
+[Name] == Tiara && [Quality] == unique && [Flag] != ethereal # [fireresist] == 70// Kira's Guardian
+[Name] == Diadem && [Quality] == unique && [Flag] != ethereal // Griffon's Eye
 
 // # Orphan's Call #
 // [Name] == WingedHelm && [Quality] == Set // Guillaume's Face
@@ -765,8 +765,8 @@
 //Circlets
 
 // +2 Class skill circlet
-[Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20
-[Type] == Circlet && [Quality] == Rare # [amazonskills] >= 2  && [frw] >= 20 && [sockets] >= 2
+[Type] == Circlet && [Quality] >= Magic # [itemaddclassskills] >= 2  && [fcr] >= 20
+[Type] == Circlet && [Quality] >= Magic # [ItemAddClassSkills] >= 2  && [frw] >= 20 && [sockets] >= 2
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && ([sockets] >= 2 || [strength] >= 10)
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [strength] >= 10 && [maxhp] >= 40
 [Type] == Circlet && [Quality] == Rare # [itemaddclassskills] >= 2  && [fcr] >= 20 && [strength] >= 10 && [maxmana] >= 60

@@ -241,7 +241,7 @@ function LoadConfig() {
 
 	// Potion settings
 	Config.UseHP = 75; // Drink a healing potion if life is under designated percent.
-	Config.UseRejuvHP = 40;  // Drink a rejuvenation potion if life is under designated percent.
+	Config.UseRejuvHP = 50;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 30; // Drink a mana potion if mana is under designated percent.
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.

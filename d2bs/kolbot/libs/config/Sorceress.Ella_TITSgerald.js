@@ -248,7 +248,7 @@ function LoadConfig() {
 
 	// Potion settings
 	Config.UseHP = 75; // Drink a healing potion if life is under designated percent.
-	Config.UseRejuvHP = 40;  // Drink a rejuvenation potion if life is under designated percent.
+	Config.UseRejuvHP = 50;  // Drink a rejuvenation potion if life is under designated percent.
 	Config.UseMP = 30; // Drink a mana potion if mana is under designated percent.
 	Config.UseRejuvMP = 0; // Drink a rejuvenation potion if mana is under designated percent.
 	Config.UseMercHP = 75; // Give a healing potion to your merc if his/her life is under designated percent.
@@ -258,7 +258,7 @@ function LoadConfig() {
 	Config.RejuvBuffer = 0; // Number of rejuvenation potions to keep in inventory.
 
 	// Chicken settings
-	Config.LifeChicken = 20; // Exit game if life is less or equal to designated percent.
+	Config.LifeChicken = 25; // Exit game if life is less or equal to designated percent.
 	Config.ManaChicken = 0; // Exit game if mana is less or equal to designated percent.
 	Config.MercChicken = 0; // Exit game if merc's life is less or equal to designated percent.
 	Config.TownHP = 30; // Go to town if life is under designated percent.
@@ -531,7 +531,7 @@ function LoadConfig() {
 	Config.DodgeHP = 100; // Dodge only if HP percent is less than or equal to Config.DodgeHP. 100 = always dodge.
 	Config.BossPriority = true; // Set to true to attack Unique/SuperUnique monsters first when clearing
 	Config.ClearType = 0; // Monster spectype to kill in level clear scripts (ie. Mausoleum). 0xF = skip normal, 0x7 = champions/bosses, 0 = all
-	Config.TeleStomp = true; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
+	Config.TeleStomp = false; // Use merc to attack bosses if they're immune to attacks, but not to physical damage
 
 	// Clear while traveling during bot scripts
 	// You have two methods to configure clearing. First is simply a spectype to always clear, in any area, with a default range of 30

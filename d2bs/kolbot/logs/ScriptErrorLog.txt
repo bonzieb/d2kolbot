@@ -99,3 +99,17 @@ Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
 [2020/07/01 06:20:55] <Hammy> Error in Baal (attack.js line 232): Attack.kill: Target not found
 Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Baal@baal.js:329, Attack.kill@attack.js:232
+[2020/07/01 12:29:27] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 15:04:53] <LiteSorc> Error in Pit (pit.js line 21): Failed to move to Pit level 2
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Pit@pit.js:21
+[2020/07/01 17:44:19] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Infector of Souls not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.infector@diablo.js:271, @diablo.js:252, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 19:13:32] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Grand Vizier of Chaos not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.vizier@diablo.js:269, @diablo.js:209, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 19:36:45] <Hammy> Error in Diablo (attack.js line 438): Attack.clear: Lord De Seis not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:493, openSeals@diablo.js:273, openSeals/<@diablo.js:273, openSeals/seals.seis@diablo.js:270, @diablo.js:230, @diablo.js:186, Attack.clear@attack.js:438
+[2020/07/01 20:03:07] <Hammy> Error in Diablo (diablo.js line 460): Failed to move to Chaos Sanctuary
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:460
+[2020/07/01 20:34:40] <LiteSorc> Error in Diablo (diablo.js line 351): Diablo not found
+Stack: main@default.dbj:224, Loader.init@loader.js:17, Loader.loadScripts@loader.js:135, Diablo@diablo.js:507, @diablo.js:351
